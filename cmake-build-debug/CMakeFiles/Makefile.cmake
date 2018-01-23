@@ -50,7 +50,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Priniting_Table_1_to_15.dir/DependInfo.cmake"
   "CMakeFiles/Table_Of_A_Number.dir/DependInfo.cmake"
   "CMakeFiles/Finding_Prime_In_Array.dir/DependInfo.cmake"
-  "CMakeFiles/Finding_Prime.dir/DependInfo.cmake"
   )

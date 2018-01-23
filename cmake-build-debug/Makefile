@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Priniting_Table_1_to_15
+
+# Build rule for target.
+Priniting_Table_1_to_15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Priniting_Table_1_to_15
+.PHONY : Priniting_Table_1_to_15
+
+# fast build rule for target.
+Priniting_Table_1_to_15/fast:
+	$(MAKE) -f CMakeFiles\Priniting_Table_1_to_15.dir\build.make CMakeFiles/Priniting_Table_1_to_15.dir/build
+.PHONY : Priniting_Table_1_to_15/fast
+
+#=============================================================================
 # Target rules for targets named Table_Of_A_Number
 
 # Build rule for target.
@@ -135,19 +148,6 @@ Finding_Prime_In_Array/fast:
 	$(MAKE) -f CMakeFiles\Finding_Prime_In_Array.dir\build.make CMakeFiles/Finding_Prime_In_Array.dir/build
 .PHONY : Finding_Prime_In_Array/fast
 
-#=============================================================================
-# Target rules for targets named Finding_Prime
-
-# Build rule for target.
-Finding_Prime: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Finding_Prime
-.PHONY : Finding_Prime
-
-# fast build rule for target.
-Finding_Prime/fast:
-	$(MAKE) -f CMakeFiles\Finding_Prime.dir\build.make CMakeFiles/Finding_Prime.dir/build
-.PHONY : Finding_Prime/fast
-
 Finding_Prime_In_Array.obj: Finding_Prime_In_Array.cpp.obj
 
 .PHONY : Finding_Prime_In_Array.obj
@@ -155,7 +155,6 @@ Finding_Prime_In_Array.obj: Finding_Prime_In_Array.cpp.obj
 # target to build an object file
 Finding_Prime_In_Array.cpp.obj:
 	$(MAKE) -f CMakeFiles\Finding_Prime_In_Array.dir\build.make CMakeFiles/Finding_Prime_In_Array.dir/Finding_Prime_In_Array.cpp.obj
-	$(MAKE) -f CMakeFiles\Finding_Prime.dir\build.make CMakeFiles/Finding_Prime.dir/Finding_Prime_In_Array.cpp.obj
 .PHONY : Finding_Prime_In_Array.cpp.obj
 
 Finding_Prime_In_Array.i: Finding_Prime_In_Array.cpp.i
@@ -165,7 +164,6 @@ Finding_Prime_In_Array.i: Finding_Prime_In_Array.cpp.i
 # target to preprocess a source file
 Finding_Prime_In_Array.cpp.i:
 	$(MAKE) -f CMakeFiles\Finding_Prime_In_Array.dir\build.make CMakeFiles/Finding_Prime_In_Array.dir/Finding_Prime_In_Array.cpp.i
-	$(MAKE) -f CMakeFiles\Finding_Prime.dir\build.make CMakeFiles/Finding_Prime.dir/Finding_Prime_In_Array.cpp.i
 .PHONY : Finding_Prime_In_Array.cpp.i
 
 Finding_Prime_In_Array.s: Finding_Prime_In_Array.cpp.s
@@ -175,8 +173,34 @@ Finding_Prime_In_Array.s: Finding_Prime_In_Array.cpp.s
 # target to generate assembly for a file
 Finding_Prime_In_Array.cpp.s:
 	$(MAKE) -f CMakeFiles\Finding_Prime_In_Array.dir\build.make CMakeFiles/Finding_Prime_In_Array.dir/Finding_Prime_In_Array.cpp.s
-	$(MAKE) -f CMakeFiles\Finding_Prime.dir\build.make CMakeFiles/Finding_Prime.dir/Finding_Prime_In_Array.cpp.s
 .PHONY : Finding_Prime_In_Array.cpp.s
+
+Priniting_Table_1_to_15.obj: Priniting_Table_1_to_15.cpp.obj
+
+.PHONY : Priniting_Table_1_to_15.obj
+
+# target to build an object file
+Priniting_Table_1_to_15.cpp.obj:
+	$(MAKE) -f CMakeFiles\Priniting_Table_1_to_15.dir\build.make CMakeFiles/Priniting_Table_1_to_15.dir/Priniting_Table_1_to_15.cpp.obj
+.PHONY : Priniting_Table_1_to_15.cpp.obj
+
+Priniting_Table_1_to_15.i: Priniting_Table_1_to_15.cpp.i
+
+.PHONY : Priniting_Table_1_to_15.i
+
+# target to preprocess a source file
+Priniting_Table_1_to_15.cpp.i:
+	$(MAKE) -f CMakeFiles\Priniting_Table_1_to_15.dir\build.make CMakeFiles/Priniting_Table_1_to_15.dir/Priniting_Table_1_to_15.cpp.i
+.PHONY : Priniting_Table_1_to_15.cpp.i
+
+Priniting_Table_1_to_15.s: Priniting_Table_1_to_15.cpp.s
+
+.PHONY : Priniting_Table_1_to_15.s
+
+# target to generate assembly for a file
+Priniting_Table_1_to_15.cpp.s:
+	$(MAKE) -f CMakeFiles\Priniting_Table_1_to_15.dir\build.make CMakeFiles/Priniting_Table_1_to_15.dir/Priniting_Table_1_to_15.cpp.s
+.PHONY : Priniting_Table_1_to_15.cpp.s
 
 Table_Of_A_Number.obj: Table_Of_A_Number.cpp.obj
 
@@ -211,14 +235,17 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Priniting_Table_1_to_15
 	@echo ... Table_Of_A_Number
 	@echo ... Finding_Prime_In_Array
-	@echo ... Finding_Prime
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Finding_Prime_In_Array.obj
 	@echo ... Finding_Prime_In_Array.i
 	@echo ... Finding_Prime_In_Array.s
+	@echo ... Priniting_Table_1_to_15.obj
+	@echo ... Priniting_Table_1_to_15.i
+	@echo ... Priniting_Table_1_to_15.s
 	@echo ... Table_Of_A_Number.obj
 	@echo ... Table_Of_A_Number.i
 	@echo ... Table_Of_A_Number.s
