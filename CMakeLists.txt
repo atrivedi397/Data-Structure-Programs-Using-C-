@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 11)
 
 
 add_executable(Table_Of_A_Number Table_Of_A_Number.cpp)
-add_executable(Finding_Prime Finding_Prime_In_Array.cpp)
 add_executable(Finding_Prime_In_Array Finding_Prime_In_Array.cpp)
+add_executable(Priniting_Table_1_to_15 Priniting_Table_1_to_15.cpp)

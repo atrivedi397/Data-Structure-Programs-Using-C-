@@ -3,7 +3,7 @@ using namespace std;
 
 int main ()
 {
-    float num,tem133p;
+    float num,temp;
     int i=1;
     cout<<"\nInput Your Number To Print The Table\n ";
     cin>>num;
