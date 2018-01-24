@@ -170,6 +170,80 @@ clean: CMakeFiles/Finding_Prime_In_Array.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Working_of_an_array.dir
+
+# All Build rule for target.
+CMakeFiles/Working_of_an_array.dir/all:
+	$(MAKE) -f CMakeFiles\Working_of_an_array.dir\build.make CMakeFiles/Working_of_an_array.dir/depend
+	$(MAKE) -f CMakeFiles\Working_of_an_array.dir\build.make CMakeFiles/Working_of_an_array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target Working_of_an_array"
+.PHONY : CMakeFiles/Working_of_an_array.dir/all
+
+# Include target in all.
+all: CMakeFiles/Working_of_an_array.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Working_of_an_array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Working_of_an_array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Working_of_an_array.dir/rule
+
+# Convenience name for target.
+Working_of_an_array: CMakeFiles/Working_of_an_array.dir/rule
+
+.PHONY : Working_of_an_array
+
+# clean rule for target.
+CMakeFiles/Working_of_an_array.dir/clean:
+	$(MAKE) -f CMakeFiles\Working_of_an_array.dir\build.make CMakeFiles/Working_of_an_array.dir/clean
+.PHONY : CMakeFiles/Working_of_an_array.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Working_of_an_array.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Working_of.dir
+
+# All Build rule for target.
+CMakeFiles/Working_of.dir/all:
+	$(MAKE) -f CMakeFiles\Working_of.dir\build.make CMakeFiles/Working_of.dir/depend
+	$(MAKE) -f CMakeFiles\Working_of.dir\build.make CMakeFiles/Working_of.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num= "Built target Working_of"
+.PHONY : CMakeFiles/Working_of.dir/all
+
+# Include target in all.
+all: CMakeFiles/Working_of.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Working_of.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" 0
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Working_of.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Working_of.dir/rule
+
+# Convenience name for target.
+Working_of: CMakeFiles/Working_of.dir/rule
+
+.PHONY : Working_of
+
+# clean rule for target.
+CMakeFiles/Working_of.dir/clean:
+	$(MAKE) -f CMakeFiles\Working_of.dir\build.make CMakeFiles/Working_of.dir/clean
+.PHONY : CMakeFiles/Working_of.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Working_of.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

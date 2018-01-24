@@ -148,6 +148,32 @@ Finding_Prime_In_Array/fast:
 	$(MAKE) -f CMakeFiles\Finding_Prime_In_Array.dir\build.make CMakeFiles/Finding_Prime_In_Array.dir/build
 .PHONY : Finding_Prime_In_Array/fast
 
+#=============================================================================
+# Target rules for targets named Working_of_an_array
+
+# Build rule for target.
+Working_of_an_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Working_of_an_array
+.PHONY : Working_of_an_array
+
+# fast build rule for target.
+Working_of_an_array/fast:
+	$(MAKE) -f CMakeFiles\Working_of_an_array.dir\build.make CMakeFiles/Working_of_an_array.dir/build
+.PHONY : Working_of_an_array/fast
+
+#=============================================================================
+# Target rules for targets named Working_of
+
+# Build rule for target.
+Working_of: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Working_of
+.PHONY : Working_of
+
+# fast build rule for target.
+Working_of/fast:
+	$(MAKE) -f CMakeFiles\Working_of.dir\build.make CMakeFiles/Working_of.dir/build
+.PHONY : Working_of/fast
+
 Finding_Prime_In_Array.obj: Finding_Prime_In_Array.cpp.obj
 
 .PHONY : Finding_Prime_In_Array.obj
@@ -229,6 +255,33 @@ Table_Of_A_Number.cpp.s:
 	$(MAKE) -f CMakeFiles\Table_Of_A_Number.dir\build.make CMakeFiles/Table_Of_A_Number.dir/Table_Of_A_Number.cpp.s
 .PHONY : Table_Of_A_Number.cpp.s
 
+Working_of_an_array.obj: Working_of_an_array.cpp.obj
+
+.PHONY : Working_of_an_array.obj
+
+# target to build an object file
+Working_of_an_array.cpp.obj:
+	$(MAKE) -f CMakeFiles\Working_of_an_array.dir\build.make CMakeFiles/Working_of_an_array.dir/Working_of_an_array.cpp.obj
+.PHONY : Working_of_an_array.cpp.obj
+
+Working_of_an_array.i: Working_of_an_array.cpp.i
+
+.PHONY : Working_of_an_array.i
+
+# target to preprocess a source file
+Working_of_an_array.cpp.i:
+	$(MAKE) -f CMakeFiles\Working_of_an_array.dir\build.make CMakeFiles/Working_of_an_array.dir/Working_of_an_array.cpp.i
+.PHONY : Working_of_an_array.cpp.i
+
+Working_of_an_array.s: Working_of_an_array.cpp.s
+
+.PHONY : Working_of_an_array.s
+
+# target to generate assembly for a file
+Working_of_an_array.cpp.s:
+	$(MAKE) -f CMakeFiles\Working_of_an_array.dir\build.make CMakeFiles/Working_of_an_array.dir/Working_of_an_array.cpp.s
+.PHONY : Working_of_an_array.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -239,6 +292,8 @@ help:
 	@echo ... Table_Of_A_Number
 	@echo ... Finding_Prime_In_Array
 	@echo ... edit_cache
+	@echo ... Working_of_an_array
+	@echo ... Working_of
 	@echo ... rebuild_cache
 	@echo ... Finding_Prime_In_Array.obj
 	@echo ... Finding_Prime_In_Array.i
@@ -249,6 +304,9 @@ help:
 	@echo ... Table_Of_A_Number.obj
 	@echo ... Table_Of_A_Number.i
 	@echo ... Table_Of_A_Number.s
+	@echo ... Working_of_an_array.obj
+	@echo ... Working_of_an_array.i
+	@echo ... Working_of_an_array.s
 .PHONY : help
 
 
