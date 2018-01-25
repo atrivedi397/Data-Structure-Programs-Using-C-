@@ -92,6 +92,7 @@ void array::del()
     }
 }
 
+//function defined for linear search
 void array::search()
 {
     cout<<"\n\nEnter the element you want to search : \n";
@@ -106,14 +107,10 @@ void array::search()
     }
 }
 
-void array::insert_new()
+void array::insert_new()  //function to insert a new element in the same array
 {
     do
     {
-        cout<<"\n\nDo you want to insert more elements\n\n1. Yes\n\n2. No\n ";
-        cin>>value;
-        if (value == 1)
-        {
             cout<<"\nAt which position do you want to insert the new element ?\n";
             cin>>pos;
             cout<<"\nProvide the element you want to enter : \n";
@@ -133,11 +130,6 @@ void array::insert_new()
                 cout<<"\n!!!!Array is a continuous block of memory, so can't insert at position untill its previous space is filled.\n";
                 flag = 1;
             }
-        }
-        else
-        {
-            flag = 1;
-        }
     }while(flag == 1);           //end of do-while
 
     cout<<"\nThe newly formed array is :\n";
