@@ -9,7 +9,7 @@ public:
     //function declared for deleting the elements
     void del();
 private:
-    int* storing_array;   //the array to store elemnts
+    int* storing_array;   //the array to store elements
     int flag = 0, size, no_of_elements , value ,pos , element;      //other required variables
 };
 void array::insert()      //function defined
@@ -42,7 +42,7 @@ void array::insert()      //function defined
 
     //loop for showing what has been inserted initially
 
-    cout<<"\nThe given array is : \n";
+    cout<<"\n\nThe given array is : \n\n";
     for(int i = 0; i < no_of_elements ; i++)
     {
         cout<<storing_array[i]<<"  ";
@@ -52,7 +52,7 @@ void array::insert()      //function defined
 
     do
     {
-        cout<<"\nDo you want to insert more elements\n\n1. Yes\n\n2. No\n ";
+        cout<<"\n\nDo you want to insert more elements\n\n1. Yes\n\n2. No\n ";
         cin>>value;
         if (value == 1)
         {
@@ -97,7 +97,6 @@ void array::del()
     cout<<"\nWhich position do you want to delete ?\n";
     cin>>pos;
 
-    //loop to delete the element
 
    if(!storing_array)
    {
@@ -105,11 +104,20 @@ void array::del()
    }
     else
    {
-       for(int i = (pos-1); i < no_of_elements; i++)
+       if(pos <= no_of_elements)
        {
-           storing_array[i] = storing_array[i+1];
+           //loop to delete the element
+
+           for(int i = (pos-1); i < no_of_elements; i++)
+           {
+               storing_array[i] = storing_array[i+1];
+           }
+           no_of_elements-=1;
        }
-       no_of_elements-=1;
+       else
+       {
+           cout<<"\n\n!!!!!!!!Provide a position lesser than the number of elements . !!!!!!\n\n";
+       }
    }
 
     //loop to display array after delete
@@ -126,7 +134,7 @@ int  main()
     int n ;
     do
     {
-        cout<<"\nSelect one of the following\n\n1. Insert In Array\n\n2. Delete From An Array\n\n3. Exit\n";
+        cout<<"\n\n\nSelect one of the following\n\n1. Insert In A New Array\n\n2. Delete From An Array\n(You should first enter the elements and then you can delete)\n\n3. Exit\n";
         cin>>n;
         switch (n)
         {
@@ -134,7 +142,8 @@ int  main()
                 break;
             case 2 : ob.del();
                 break;
-            default: exit(0);
+            case 3 : exit(0);
+            default : cout<<"\nPlease provide a valid input . \n";
         }
     }while(true);
 
