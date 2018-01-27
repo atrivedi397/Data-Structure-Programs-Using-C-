@@ -101,8 +101,8 @@ void array::search()
     {
         if(storing_array[i] == element)
         {
-            cout<<"\n\n The given element is present at index number "<<i<<" and at position "<<(i+1)<<endl;
-            break;
+            cout<<"\n\n The given element is present at index number "<<i<<" and at position "<<(i+1)<<endl<<endl;
+            //removed 'break' just in case if the element is present at more than 1 places then loop does not terminate;
         }
     }
 }
