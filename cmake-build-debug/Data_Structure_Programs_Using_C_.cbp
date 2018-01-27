@@ -17,6 +17,50 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Binary_search_array">
+				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Binary_search_array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Binary_search_array"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Binary_search_array/fast">
+				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Binary_search_array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Binary_search_array/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Priniting_Table_1_to_15">
 				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Priniting_Table_1_to_15.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
@@ -203,50 +247,6 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Working_of">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Working_of.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Working_of"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Working_of/fast">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Working_of.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Working_of/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
 				<Option type="4"/>
@@ -258,6 +258,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Binary_search_array.cpp">
+			<Option target="Binary_search_array"/>
+		</Unit>
 		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Finding_Prime_In_Array.cpp">
 			<Option target="Finding_Prime_In_Array"/>
 		</Unit>

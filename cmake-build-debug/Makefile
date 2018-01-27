@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Binary_search_array
+
+# Build rule for target.
+Binary_search_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Binary_search_array
+.PHONY : Binary_search_array
+
+# fast build rule for target.
+Binary_search_array/fast:
+	$(MAKE) -f CMakeFiles\Binary_search_array.dir\build.make CMakeFiles/Binary_search_array.dir/build
+.PHONY : Binary_search_array/fast
+
+#=============================================================================
 # Target rules for targets named Priniting_Table_1_to_15
 
 # Build rule for target.
@@ -161,18 +174,32 @@ Working_of_an_array/fast:
 	$(MAKE) -f CMakeFiles\Working_of_an_array.dir\build.make CMakeFiles/Working_of_an_array.dir/build
 .PHONY : Working_of_an_array/fast
 
-#=============================================================================
-# Target rules for targets named Working_of
+Binary_search_array.obj: Binary_search_array.cpp.obj
 
-# Build rule for target.
-Working_of: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Working_of
-.PHONY : Working_of
+.PHONY : Binary_search_array.obj
 
-# fast build rule for target.
-Working_of/fast:
-	$(MAKE) -f CMakeFiles\Working_of.dir\build.make CMakeFiles/Working_of.dir/build
-.PHONY : Working_of/fast
+# target to build an object file
+Binary_search_array.cpp.obj:
+	$(MAKE) -f CMakeFiles\Binary_search_array.dir\build.make CMakeFiles/Binary_search_array.dir/Binary_search_array.cpp.obj
+.PHONY : Binary_search_array.cpp.obj
+
+Binary_search_array.i: Binary_search_array.cpp.i
+
+.PHONY : Binary_search_array.i
+
+# target to preprocess a source file
+Binary_search_array.cpp.i:
+	$(MAKE) -f CMakeFiles\Binary_search_array.dir\build.make CMakeFiles/Binary_search_array.dir/Binary_search_array.cpp.i
+.PHONY : Binary_search_array.cpp.i
+
+Binary_search_array.s: Binary_search_array.cpp.s
+
+.PHONY : Binary_search_array.s
+
+# target to generate assembly for a file
+Binary_search_array.cpp.s:
+	$(MAKE) -f CMakeFiles\Binary_search_array.dir\build.make CMakeFiles/Binary_search_array.dir/Binary_search_array.cpp.s
+.PHONY : Binary_search_array.cpp.s
 
 Finding_Prime_In_Array.obj: Finding_Prime_In_Array.cpp.obj
 
@@ -288,13 +315,16 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Binary_search_array
 	@echo ... Priniting_Table_1_to_15
 	@echo ... Table_Of_A_Number
 	@echo ... Finding_Prime_In_Array
 	@echo ... edit_cache
 	@echo ... Working_of_an_array
-	@echo ... Working_of
 	@echo ... rebuild_cache
+	@echo ... Binary_search_array.obj
+	@echo ... Binary_search_array.i
+	@echo ... Binary_search_array.s
 	@echo ... Finding_Prime_In_Array.obj
 	@echo ... Finding_Prime_In_Array.i
 	@echo ... Finding_Prime_In_Array.s
