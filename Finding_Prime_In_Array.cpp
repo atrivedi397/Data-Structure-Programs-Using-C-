@@ -15,7 +15,7 @@ int main()
 
     cout<<"\n Enter the the numbers one by one .\n\n Please Enter The Numbers Greater Than 3 Only \n\n ";
 
-    for(int i = 0; i< n; i++)
+    for(int i = 0; i < n; i++)
     {
         //storing the elements in array
         cin>>num;
@@ -23,7 +23,7 @@ int main()
             storing_array[i] = num;
         else {
             // checking if the number provided is 1 or 2 or 3
-            cout << " 1 is neither prime nor composite while 2 is the only prime number ,3 is also prime . Please enter other than 1 , 2 , 3 .\n";
+            cout << " 1 is neither prime nor composite while 2 is the only even prime number ,3 is also prime . Please enter other than 1 , 2 , 3 .\n";
             --i;
         }
     }
@@ -40,8 +40,11 @@ int main()
         }
         else
         {
-            prime_array[k] = storing_array[i];
-            k++;
+            if(verified_num == 2)
+            {
+                prime_array[k] = storing_array[i];
+                k++;
+            }
         }
     }
 
@@ -81,6 +84,7 @@ int check_prime(int a)               // function to check prime
     if(answer == 1)
     {
         //returning for storing in non prime array
+        answer = 1;
         return answer;
     }
     else
