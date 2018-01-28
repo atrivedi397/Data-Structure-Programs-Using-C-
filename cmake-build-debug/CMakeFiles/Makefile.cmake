@@ -55,4 +55,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Table_Of_A_Number.dir/DependInfo.cmake"
   "CMakeFiles/Finding_Prime_In_Array.dir/DependInfo.cmake"
   "CMakeFiles/Working_of_an_array.dir/DependInfo.cmake"
+  "CMakeFiles/Array_Merge.dir/DependInfo.cmake"
   )

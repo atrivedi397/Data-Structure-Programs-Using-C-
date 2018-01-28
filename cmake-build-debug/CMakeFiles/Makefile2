@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = "E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cm
 CMakeFiles/Binary_search_array.dir/all:
 	$(MAKE) -f CMakeFiles\Binary_search_array.dir\build.make CMakeFiles/Binary_search_array.dir/depend
 	$(MAKE) -f CMakeFiles\Binary_search_array.dir\build.make CMakeFiles/Binary_search_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Binary_search_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target Binary_search_array"
 .PHONY : CMakeFiles/Binary_search_array.dir/all
 
 # Include target in all.
@@ -102,7 +102,7 @@ clean: CMakeFiles/Binary_search_array.dir/clean
 CMakeFiles/Priniting_Table_1_to_15.dir/all:
 	$(MAKE) -f CMakeFiles\Priniting_Table_1_to_15.dir\build.make CMakeFiles/Priniting_Table_1_to_15.dir/depend
 	$(MAKE) -f CMakeFiles\Priniting_Table_1_to_15.dir\build.make CMakeFiles/Priniting_Table_1_to_15.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target Priniting_Table_1_to_15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target Priniting_Table_1_to_15"
 .PHONY : CMakeFiles/Priniting_Table_1_to_15.dir/all
 
 # Include target in all.
@@ -139,7 +139,7 @@ clean: CMakeFiles/Priniting_Table_1_to_15.dir/clean
 CMakeFiles/Table_Of_A_Number.dir/all:
 	$(MAKE) -f CMakeFiles\Table_Of_A_Number.dir\build.make CMakeFiles/Table_Of_A_Number.dir/depend
 	$(MAKE) -f CMakeFiles\Table_Of_A_Number.dir\build.make CMakeFiles/Table_Of_A_Number.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target Table_Of_A_Number"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target Table_Of_A_Number"
 .PHONY : CMakeFiles/Table_Of_A_Number.dir/all
 
 # Include target in all.
@@ -176,7 +176,7 @@ clean: CMakeFiles/Table_Of_A_Number.dir/clean
 CMakeFiles/Finding_Prime_In_Array.dir/all:
 	$(MAKE) -f CMakeFiles\Finding_Prime_In_Array.dir\build.make CMakeFiles/Finding_Prime_In_Array.dir/depend
 	$(MAKE) -f CMakeFiles\Finding_Prime_In_Array.dir\build.make CMakeFiles/Finding_Prime_In_Array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target Finding_Prime_In_Array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target Finding_Prime_In_Array"
 .PHONY : CMakeFiles/Finding_Prime_In_Array.dir/all
 
 # Include target in all.
@@ -213,7 +213,7 @@ clean: CMakeFiles/Finding_Prime_In_Array.dir/clean
 CMakeFiles/Working_of_an_array.dir/all:
 	$(MAKE) -f CMakeFiles\Working_of_an_array.dir\build.make CMakeFiles/Working_of_an_array.dir/depend
 	$(MAKE) -f CMakeFiles\Working_of_an_array.dir\build.make CMakeFiles/Working_of_an_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target Working_of_an_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target Working_of_an_array"
 .PHONY : CMakeFiles/Working_of_an_array.dir/all
 
 # Include target in all.
@@ -240,6 +240,43 @@ CMakeFiles/Working_of_an_array.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Working_of_an_array.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Array_Merge.dir
+
+# All Build rule for target.
+CMakeFiles/Array_Merge.dir/all:
+	$(MAKE) -f CMakeFiles\Array_Merge.dir\build.make CMakeFiles/Array_Merge.dir/depend
+	$(MAKE) -f CMakeFiles\Array_Merge.dir\build.make CMakeFiles/Array_Merge.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Array_Merge"
+.PHONY : CMakeFiles/Array_Merge.dir/all
+
+# Include target in all.
+all: CMakeFiles/Array_Merge.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Array_Merge.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Array_Merge.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Git Cloned Repository\Data-Structure-Programs-Using-C-\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Array_Merge.dir/rule
+
+# Convenience name for target.
+Array_Merge: CMakeFiles/Array_Merge.dir/rule
+
+.PHONY : Array_Merge
+
+# clean rule for target.
+CMakeFiles/Array_Merge.dir/clean:
+	$(MAKE) -f CMakeFiles\Array_Merge.dir\build.make CMakeFiles/Array_Merge.dir/clean
+.PHONY : CMakeFiles/Array_Merge.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Array_Merge.dir/clean
 
 .PHONY : clean
 
