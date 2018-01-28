@@ -174,6 +174,46 @@ Working_of_an_array/fast:
 	$(MAKE) -f CMakeFiles\Working_of_an_array.dir\build.make CMakeFiles/Working_of_an_array.dir/build
 .PHONY : Working_of_an_array/fast
 
+#=============================================================================
+# Target rules for targets named Array_Merge
+
+# Build rule for target.
+Array_Merge: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Array_Merge
+.PHONY : Array_Merge
+
+# fast build rule for target.
+Array_Merge/fast:
+	$(MAKE) -f CMakeFiles\Array_Merge.dir\build.make CMakeFiles/Array_Merge.dir/build
+.PHONY : Array_Merge/fast
+
+Array_Merge.obj: Array_Merge.cpp.obj
+
+.PHONY : Array_Merge.obj
+
+# target to build an object file
+Array_Merge.cpp.obj:
+	$(MAKE) -f CMakeFiles\Array_Merge.dir\build.make CMakeFiles/Array_Merge.dir/Array_Merge.cpp.obj
+.PHONY : Array_Merge.cpp.obj
+
+Array_Merge.i: Array_Merge.cpp.i
+
+.PHONY : Array_Merge.i
+
+# target to preprocess a source file
+Array_Merge.cpp.i:
+	$(MAKE) -f CMakeFiles\Array_Merge.dir\build.make CMakeFiles/Array_Merge.dir/Array_Merge.cpp.i
+.PHONY : Array_Merge.cpp.i
+
+Array_Merge.s: Array_Merge.cpp.s
+
+.PHONY : Array_Merge.s
+
+# target to generate assembly for a file
+Array_Merge.cpp.s:
+	$(MAKE) -f CMakeFiles\Array_Merge.dir\build.make CMakeFiles/Array_Merge.dir/Array_Merge.cpp.s
+.PHONY : Array_Merge.cpp.s
+
 Binary_search_array.obj: Binary_search_array.cpp.obj
 
 .PHONY : Binary_search_array.obj
@@ -321,7 +361,11 @@ help:
 	@echo ... Finding_Prime_In_Array
 	@echo ... edit_cache
 	@echo ... Working_of_an_array
+	@echo ... Array_Merge
 	@echo ... rebuild_cache
+	@echo ... Array_Merge.obj
+	@echo ... Array_Merge.i
+	@echo ... Array_Merge.s
 	@echo ... Binary_search_array.obj
 	@echo ... Binary_search_array.i
 	@echo ... Binary_search_array.s
