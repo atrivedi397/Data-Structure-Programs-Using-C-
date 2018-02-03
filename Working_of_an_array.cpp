@@ -14,7 +14,7 @@ public:
     void search() ;
 private:
     int* storing_array;   //the array to store elements
-    int flag = 0, size, no_of_elements , value ,pos , element;      //other required variables
+    int flag = 0, size, no_of_elements , pos , element;      //other required variables
 };
 void array::insert_initial()      //function defined
 {
@@ -80,7 +80,7 @@ void array::del()
        }
        else
        {
-           cout<<"\n\n!!!!!!!!Provide a position lesser than the number of elements . !!!!!!\n\n";
+           cout<<"\n\n!!!!!!!!  Provide a position lesser than the number of elements . !!!!!!\n\n";
        }
    }
 
@@ -115,20 +115,37 @@ void array::insert_new()  //function to insert a new element in the same array
             cin>>pos;
             cout<<"\nProvide the element you want to enter : \n";
             cin>>element;
-            if(pos <= no_of_elements)
+            if(size == no_of_elements)
             {
-                for(int i = no_of_elements; i > (pos-1) ; i--)
-                {
-                    storing_array[i] = storing_array[i-1];
-                }
-                storing_array[pos-1] = element;
-                no_of_elements+=1;
+                cout<<"\nArray is full. You can not insert new elements.\n\n";
                 flag = 0;
             }
             else
             {
-                cout<<"\n!!!!Array is a continuous block of memory, so can't insert at position untill its previous space is filled.\n";
-                flag = 1;
+                if(pos <= no_of_elements)
+                {
+                    for(int i = no_of_elements; i > (pos-1) ; i--)
+                    {
+                        storing_array[i] = storing_array[i-1];
+                    }
+                    storing_array[pos-1] = element;
+                    no_of_elements+=1;
+                    flag = 0;
+                }
+                else
+                {
+                    if(pos == (no_of_elements+1))
+                    {
+                        ++no_of_elements;
+                        storing_array[pos-1] = element;
+                        flag = 0;
+                    }
+                    else
+                    {
+                        cout<<"\n!!!!Array is a continuous block of memory, so can't insert at position untill its previous space is filled.\n";
+                        flag = 1;
+                    }
+                }
             }
     }while(flag == 1);           //end of do-while
 
