@@ -1,127 +1,146 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-class merge_array
+class function
 {
+    //function declarations
 public:
-    //function to input the arrays
-    //void input_array();
-    //function to sort the array
-    //int* array_sort(int* , int);
-    //function to merge the array
-    void array_merge();
-private:
-    int* array1; int* array2; int* array3;
-    int beg1 = 0, beg2 = 0, size1, size2, end1, end2;
+
+    //creating an array
+    int* create(int* , int);
+
+    //merging array
+    void merge_array(int*, int, int*, int, int);
+
+    //displaying array
+    void display(int* , int);
 };
-
-void merge_array::array_merge()
-{
-    cout<<"\n\nEnter the size of first Array : \n";
-    cin>>size1;
-    cout<<"\n\nEnter the size of second Array : \n";
-    cin>>size2;
-    array1 = new int[size1];       //dynamically allocating the memory
-
-    array2 = new int[size2];
-    cout<<"\nEnter the elements of first array :\n\n";
-    for(int i = 0; i < size1; i++)
-    {
-        cin>>array1[i];
-    }
-
-    cout<<"\nEnter the elements of second array :\n\n";
-    for(int i = 0; i < size2; i++)
-    {
-        cin>>array2[i];
-    }
-
-    // array1 = array_sort(array1, size1);
-    // array2 = array_sort(array2, size2);
-
-
-
-    //now that the array have been sorted (ascending) we can merge the two
-    end1 = size1-1;
-    end2 = size2-1;
-    if(array1[end1] < array2[beg2])
-    {
-        for(int i = 0; i <= end1; i++)
-        {
-            array3[i] = array1[i];
-        }
-        for(int i = 0; i <= end2; i++)
-        {
-
-            array3[end1] = array2[i];
-            end1++;
-        }
-    }
-    else
-    {
-        if(array1[beg1] > array2[end2])
-        {
-            for(int i = 0; i <= end2; i++)
-            {
-                array3[i] = array2[i];
-            }
-            for(int i = 0; i <= end1; i++)
-            {
-                array3[end2] = array1[i];
-                end2++;
-            }
-        }
-    }
-
-    //displaying the merged array
-    cout<<"\n\nThe final merged array is :\n\n";
-    for(int i = 0; i <= ((end1+end2)-2); i++)
-    {
-        cout<<array3[i]<<"  ";
-    }
-}
-
-
-/*int* merge_array::array_sort(int* Array, int total)
-{
-    int key;
-    for(int j = 1; j < total; j++)
-    {
-        key = Array[j];
-        int i = j-1;
-        while(i >= 0 && Array[i] > key)
-        {
-            Array[i+1] = Array[i];
-            i = i-1;
-        }
-        Array[i+1] = key;
-    }
-
-    return Array;
-
-}
- //Will have to work on this
-*/
 
 int main()
 {
-    cout<<"\nThis Is A Program To Merge Two Arrays:\n";
-    bool flag = false;
-    int n;
-    merge_array ob;
-    ob.array_merge();
-    do
+    //object of class functions
+    function ob1;
+
+    //variables declaration
+    int* a; int* b; int size1,size2,size3; int* ptr1; int*ptr2;
+    cout<<"\n\nThis is a program for merging two arrays using pointers : \n\n Please enter elements in ascending order . \n";
+    //asking for the size of first array
+    cout<<"\nEnter size of first array :\n\n";
+    cin>>size1;
+
+    //calling create() to create an array no. 1
+    ptr1 = ob1.create(a , size1);
+    ob1.display(ptr1 , size1); //displaying first array
+
+    //asking for the size of second array
+    cout<<"\n\nEnter the size of second array :\n\n";
+    cin>>size2;
+
+    //calling create() to create an array no. 2
+    ptr2 = ob1.create(b , size2);
+    ob1.display(ptr2 , size2);    //displaying second array
+
+    //maximum size of the new array8
+    size3 = size1+size2;
+
+    //calling merge_array() to merge the two arrays
+    ob1.merge_array(ptr1, size1, ptr2, size2, size3);
+    return 0;
+}
+
+//definition for create()
+int* function :: create(int* arr , int m)
+{
+    arr = new int[m];
+    cout<<"\nEnter the elements :\n\n";
+    for(int i = 0; i < m; i++)
     {
-        cout<<"\n\nDo You want to merge again ?\n\n1. Yes\n\n2. No & Exit(Press Any key Except 1)";
-        cin>>n;
-        if( n == 1 )
+        cin>>arr[i];
+    }
+    return arr;
+}
+
+//definition for display()
+void function :: display(int* arr , int m)
+{
+
+    cout<<"\nThe Array is: \n\n";
+    for(int i = 0; i < m; i++)
+    {
+        cout<<arr[i]<<"  ";
+    }
+}
+
+//definition for merge_array()
+
+//pointers to 2 arrays passed with their sizes and size 3 indicates the size of resultant array
+void function :: merge_array(int* arr1, int size1, int* arr2, int size2, int size3)
+{
+    //new array declared
+    int* arr3;
+    arr3 = new int[size3];
+
+    //algorithm for merging
+    //i,j,k are counters for array 1,2,3 respectively
+    int i = 0, j = 0, k = 0;
+
+    //entry condition
+    while(i < size1 && j < size2)
+    {
+        if(arr1[i] < arr2[j])
         {
-            ob.array_merge();
-            flag = true;
+            arr3[k] = arr1[i];
+            k++;
+            i++;
         }
         else
-            exit(0);
-    }while(!flag);
+        {
+            //if elements are equal then reducing the size of final array by 1 i.e. size3--
+            if(arr1[i] == arr2[j])
+            {
+                arr3[k] = arr1[i];
+                k++;
+                i++;
+                j++;
+                size3--;
+            }
+
+                //if(arr1[i] < arr2[j]) // it is obvious condition
+            else
+            {
+                arr3[k] = arr2[j];
+                k++;
+                j++;
+            }
+        }
+    }
+    //end of while()
+
+    //entry for the last element if first array is larger
+    if(i >= size1)
+    {
+        while( j <= size2)
+        {
+            arr3[k] = arr2[j];
+            k++;
+            j++;
+        }
+    }
+
+    //entry for the last elements if the second array is larger
+    if(j >= size2)
+    {
+        while( i <= size1)
+        {
+            arr3[k] = arr1[i];
+            k++;
+            i++;
+        }
+    }
+
+    //displaying the final merged array using member function display()
+    cout<<"\n\n\nThe merged array is as :";
+    display(arr3, size3);
 }
 //
 // Created by Abhishek Trivedi on 28-Jan-18.
