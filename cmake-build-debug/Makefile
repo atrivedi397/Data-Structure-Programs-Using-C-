@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Binary_search_array
-
-# Build rule for target.
-Binary_search_array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Binary_search_array
-.PHONY : Binary_search_array
-
-# fast build rule for target.
-Binary_search_array/fast:
-	$(MAKE) -f CMakeFiles\Binary_search_array.dir\build.make CMakeFiles/Binary_search_array.dir/build
-.PHONY : Binary_search_array/fast
-
-#=============================================================================
 # Target rules for targets named Priniting_Table_1_to_15
 
 # Build rule for target.
@@ -134,6 +121,19 @@ Priniting_Table_1_to_15: cmake_check_build_system
 Priniting_Table_1_to_15/fast:
 	$(MAKE) -f CMakeFiles\Priniting_Table_1_to_15.dir\build.make CMakeFiles/Priniting_Table_1_to_15.dir/build
 .PHONY : Priniting_Table_1_to_15/fast
+
+#=============================================================================
+# Target rules for targets named Binary_search_array
+
+# Build rule for target.
+Binary_search_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Binary_search_array
+.PHONY : Binary_search_array
+
+# fast build rule for target.
+Binary_search_array/fast:
+	$(MAKE) -f CMakeFiles\Binary_search_array.dir\build.make CMakeFiles/Binary_search_array.dir/build
+.PHONY : Binary_search_array/fast
 
 #=============================================================================
 # Target rules for targets named Table_Of_A_Number
@@ -186,6 +186,19 @@ Array_Merge: cmake_check_build_system
 Array_Merge/fast:
 	$(MAKE) -f CMakeFiles\Array_Merge.dir\build.make CMakeFiles/Array_Merge.dir/build
 .PHONY : Array_Merge/fast
+
+#=============================================================================
+# Target rules for targets named Bubble_Sort
+
+# Build rule for target.
+Bubble_Sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Bubble_Sort
+.PHONY : Bubble_Sort
+
+# fast build rule for target.
+Bubble_Sort/fast:
+	$(MAKE) -f CMakeFiles\Bubble_Sort.dir\build.make CMakeFiles/Bubble_Sort.dir/build
+.PHONY : Bubble_Sort/fast
 
 Array_Merge.obj: Array_Merge.cpp.obj
 
@@ -240,6 +253,33 @@ Binary_search_array.s: Binary_search_array.cpp.s
 Binary_search_array.cpp.s:
 	$(MAKE) -f CMakeFiles\Binary_search_array.dir\build.make CMakeFiles/Binary_search_array.dir/Binary_search_array.cpp.s
 .PHONY : Binary_search_array.cpp.s
+
+Bubble_Sort.obj: Bubble_Sort.cpp.obj
+
+.PHONY : Bubble_Sort.obj
+
+# target to build an object file
+Bubble_Sort.cpp.obj:
+	$(MAKE) -f CMakeFiles\Bubble_Sort.dir\build.make CMakeFiles/Bubble_Sort.dir/Bubble_Sort.cpp.obj
+.PHONY : Bubble_Sort.cpp.obj
+
+Bubble_Sort.i: Bubble_Sort.cpp.i
+
+.PHONY : Bubble_Sort.i
+
+# target to preprocess a source file
+Bubble_Sort.cpp.i:
+	$(MAKE) -f CMakeFiles\Bubble_Sort.dir\build.make CMakeFiles/Bubble_Sort.dir/Bubble_Sort.cpp.i
+.PHONY : Bubble_Sort.cpp.i
+
+Bubble_Sort.s: Bubble_Sort.cpp.s
+
+.PHONY : Bubble_Sort.s
+
+# target to generate assembly for a file
+Bubble_Sort.cpp.s:
+	$(MAKE) -f CMakeFiles\Bubble_Sort.dir\build.make CMakeFiles/Bubble_Sort.dir/Bubble_Sort.cpp.s
+.PHONY : Bubble_Sort.cpp.s
 
 Finding_Prime_In_Array.obj: Finding_Prime_In_Array.cpp.obj
 
@@ -355,13 +395,14 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Binary_search_array
 	@echo ... Priniting_Table_1_to_15
+	@echo ... Binary_search_array
 	@echo ... Table_Of_A_Number
 	@echo ... Finding_Prime_In_Array
 	@echo ... edit_cache
 	@echo ... Working_of_an_array
 	@echo ... Array_Merge
+	@echo ... Bubble_Sort
 	@echo ... rebuild_cache
 	@echo ... Array_Merge.obj
 	@echo ... Array_Merge.i
@@ -369,6 +410,9 @@ help:
 	@echo ... Binary_search_array.obj
 	@echo ... Binary_search_array.i
 	@echo ... Binary_search_array.s
+	@echo ... Bubble_Sort.obj
+	@echo ... Bubble_Sort.i
+	@echo ... Bubble_Sort.s
 	@echo ... Finding_Prime_In_Array.obj
 	@echo ... Finding_Prime_In_Array.i
 	@echo ... Finding_Prime_In_Array.s

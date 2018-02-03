@@ -3,11 +3,13 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="Data_Structure_Programs_Using_C_" targetName="Finding_Prime_In_Array" />
-      <config projectName="Data_Structure_Programs_Using_C_" targetName="Priniting_Table_1_to_15" />
       <config projectName="Data_Structure_Programs_Using_C_" targetName="Table_Of_A_Number" />
+      <config projectName="Data_Structure_Programs_Using_C_" targetName="Priniting_Table_1_to_15" />
       <config projectName="Data_Structure_Programs_Using_C_" targetName="Binary_search_array" />
       <config projectName="Data_Structure_Programs_Using_C_" targetName="Array_Merge" />
+      <config projectName="Data_Structure_Programs_Using_C_" targetName="Bubble_Sort" />
       <config projectName="Data_Structure_Programs_Using_C_" targetName="Working_of_an_array" />
+      <config projectName="Data_Structure_Programs_Using_C_" targetName="NewArray_merge" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -17,8 +19,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abbe413-bf1d-4f2d-adbc-b0f34aa6ac8d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Bubble_Sort.cpp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Array_Merge.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/Array_Merge.exe" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Array_Merge.dir/Array_Merge.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Array_Merge.dir/Array_Merge.cpp.obj" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Array_Merge.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Array_Merge.dir/objects.a" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Finding_Prime_In_Array.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Finding_Prime_In_Array.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Priniting_Table_1_to_15.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Priniting_Table_1_to_15.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Table_Of_A_Number.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Table_Of_A_Number.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Working_of_an_array.dir/Working_of_an_array.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Working_of_an_array.dir/Working_of_an_array.cpp.obj" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Working_of_an_array.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Working_of_an_array.dir/objects.a" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Working_of_an_array.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Working_of_an_array.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Data_Structure_Programs_Using_C_.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Data_Structure_Programs_Using_C_.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Working_of_an_array.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/Working_of_an_array.exe" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,18 +53,28 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            <state relative-caret-position="187">
+              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Array_Merge.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Array_Merge.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Array_Merge.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="200">
+              <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bubble_Sort.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bubble_Sort.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -72,12 +101,14 @@
         <option value="$PROJECT_DIR$/Finding_Prime.cpp" />
         <option value="$PROJECT_DIR$/Table_Of_A_Number.cpp" />
         <option value="$PROJECT_DIR$/Priniting_Table_1_to_15.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Working_of_an_array.cpp" />
         <option value="$PROJECT_DIR$/Binary_search_array.cpp" />
         <option value="$PROJECT_DIR$/Finding_Prime_In_Array.cpp" />
-        <option value="$PROJECT_DIR$/Array_Merge.cpp" />
         <option value="$PROJECT_DIR$/rough.cpp" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.cpp" />
+        <option value="$PROJECT_DIR$/Working_of_an_array.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Bubble_Sort.cpp" />
+        <option value="$PROJECT_DIR$/Array_Merge.cpp" />
       </list>
     </option>
   </component>
@@ -88,9 +119,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="439" />
-    <option name="width" value="927" />
-    <option name="height" value="735" />
+    <option name="x" value="670" />
+    <option name="width" value="698" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -123,7 +154,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Working_of _an_array.cpp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="ObjectiveC" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,32 +173,40 @@
     <configuration name="Array_Merge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Array_Merge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Array_Merge">
       <envs />
     </configuration>
-    <configuration name="Binary_search_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Binary_search_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Finding_Prime_In_Array">
+    <configuration name="Binary_search_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Binary_search_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Bubble_Sort">
       <envs />
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Finding_Prime_In_Array" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Bubble_Sort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Bubble_Sort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Bubble_Sort">
       <envs />
     </configuration>
-    <configuration name="Finding_Prime_In_Array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Finding_Prime_In_Array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Finding_Prime_In_Array">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Bubble_Sort" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="Priniting_Table_1_to_15" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Priniting_Table_1_to_15" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Priniting_Table_1_to_15">
+    <configuration name="Finding_Prime_In_Array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Finding_Prime_In_Array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Array_Merge">
       <envs />
     </configuration>
-    <configuration name="Table_Of_A_Number" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Table_Of_A_Number" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Table_Of_A_Number">
+    <configuration name="NewArray_merge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Finding_Prime_In_Array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Array_Merge">
       <envs />
     </configuration>
-    <configuration name="Working_of_an_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Working_of_an_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Working_of_an_array">
+    <configuration name="Priniting_Table_1_to_15" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Priniting_Table_1_to_15" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Array_Merge">
       <envs />
     </configuration>
-    <list size="7">
+    <configuration name="Table_Of_A_Number" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Table_Of_A_Number" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Array_Merge">
+      <envs />
+    </configuration>
+    <configuration name="Working_of_an_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure_Programs_Using_C_" TARGET_NAME="Working_of_an_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure_Programs_Using_C_" RUN_TARGET_NAME="Array_Merge">
+      <envs />
+    </configuration>
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.Array_Merge" />
       <item index="2" class="java.lang.String" itemvalue="Application.Binary_search_array" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Finding_Prime_In_Array" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Priniting_Table_1_to_15" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Table_Of_A_Number" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Working_of_an_array" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Bubble_Sort" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Finding_Prime_In_Array" />
+      <item index="5" class="java.lang.String" itemvalue="Application.NewArray_merge" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Priniting_Table_1_to_15" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Table_Of_A_Number" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Working_of_an_array" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -187,28 +227,31 @@
       <workItem from="1516714449197" duration="54965000" />
       <workItem from="1516969192621" duration="600000" />
       <workItem from="1516971849784" duration="598000" />
-      <workItem from="1516980333908" duration="34168000" />
+      <workItem from="1516980333908" duration="34676000" />
+      <workItem from="1517400970529" duration="851000" />
+      <workItem from="1517403114640" duration="10239000" />
+      <workItem from="1517601925360" duration="19537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115702000" />
+    <option name="totallyTimeSpent" value="146837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15592971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17130308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.96546054" sideWeight="0.48535872" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.98519737" sideWeight="0.48535872" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18421052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.375" sideWeight="0.51756954" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35197368" sideWeight="0.48243046" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2598684" sideWeight="0.48243046" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16282895" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -229,11 +272,67 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="102" lean-forward="false" selection-start-line="12" selection-start-column="102" selection-end-line="12" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Working_of_an_array.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array_Merge.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="125" column="14" lean-forward="false" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array_Merge.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array_Merge.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -246,7 +345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -254,7 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -262,7 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -270,7 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -278,7 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
           <caret line="94" column="36" lean-forward="false" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -294,7 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -302,7 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -310,7 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -318,7 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -326,7 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1921">
           <caret line="113" column="11" lean-forward="false" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -342,7 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -350,7 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -366,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -374,12 +460,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Table_Of_Any_Number .cpp" />
     <entry file="file://$PROJECT_DIR$/Working_of _an_array.cpp" />
+    <entry file="file://$PROJECT_DIR$/Table_Of_A_Number.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rough.cpp" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/NewArray_merge.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_search_array.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Priniting_Table_1_to_15.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -388,58 +496,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Table_Of_A_Number.cpp">
+    <entry file="file://$PROJECT_DIR$/Finding_Prime_In_Array.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Working_of_an_array.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2839">
-          <caret line="167" column="1" lean-forward="false" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary_search_array.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+        <state relative-caret-position="1241">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Finding_Prime_In_Array.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rough.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Array_Merge.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="200">
+          <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bubble_Sort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
           <folding />
         </state>
       </provider>
