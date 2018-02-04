@@ -335,6 +335,50 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Merging_without_pointers">
+				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Merging_without_pointers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Merging_without_pointers"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Merging_without_pointers/fast">
+				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Merging_without_pointers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Merging_without_pointers/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
 				<Option type="4"/>
@@ -357,6 +401,9 @@
 		</Unit>
 		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Finding_Prime_In_Array.cpp">
 			<Option target="Finding_Prime_In_Array"/>
+		</Unit>
+		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Merging_without_pointers.cpp">
+			<Option target="Merging_without_pointers"/>
 		</Unit>
 		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Priniting_Table_1_to_15.cpp">
 			<Option target="Priniting_Table_1_to_15"/>

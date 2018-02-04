@@ -57,4 +57,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Working_of_an_array.dir/DependInfo.cmake"
   "CMakeFiles/Array_Merge.dir/DependInfo.cmake"
   "CMakeFiles/Bubble_Sort.dir/DependInfo.cmake"
+  "CMakeFiles/Merging_without_pointers.dir/DependInfo.cmake"
   )

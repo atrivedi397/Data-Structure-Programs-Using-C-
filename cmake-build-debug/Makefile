@@ -200,6 +200,19 @@ Bubble_Sort/fast:
 	$(MAKE) -f CMakeFiles\Bubble_Sort.dir\build.make CMakeFiles/Bubble_Sort.dir/build
 .PHONY : Bubble_Sort/fast
 
+#=============================================================================
+# Target rules for targets named Merging_without_pointers
+
+# Build rule for target.
+Merging_without_pointers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Merging_without_pointers
+.PHONY : Merging_without_pointers
+
+# fast build rule for target.
+Merging_without_pointers/fast:
+	$(MAKE) -f CMakeFiles\Merging_without_pointers.dir\build.make CMakeFiles/Merging_without_pointers.dir/build
+.PHONY : Merging_without_pointers/fast
+
 Array_Merge.obj: Array_Merge.cpp.obj
 
 .PHONY : Array_Merge.obj
@@ -308,6 +321,33 @@ Finding_Prime_In_Array.cpp.s:
 	$(MAKE) -f CMakeFiles\Finding_Prime_In_Array.dir\build.make CMakeFiles/Finding_Prime_In_Array.dir/Finding_Prime_In_Array.cpp.s
 .PHONY : Finding_Prime_In_Array.cpp.s
 
+Merging_without_pointers.obj: Merging_without_pointers.cpp.obj
+
+.PHONY : Merging_without_pointers.obj
+
+# target to build an object file
+Merging_without_pointers.cpp.obj:
+	$(MAKE) -f CMakeFiles\Merging_without_pointers.dir\build.make CMakeFiles/Merging_without_pointers.dir/Merging_without_pointers.cpp.obj
+.PHONY : Merging_without_pointers.cpp.obj
+
+Merging_without_pointers.i: Merging_without_pointers.cpp.i
+
+.PHONY : Merging_without_pointers.i
+
+# target to preprocess a source file
+Merging_without_pointers.cpp.i:
+	$(MAKE) -f CMakeFiles\Merging_without_pointers.dir\build.make CMakeFiles/Merging_without_pointers.dir/Merging_without_pointers.cpp.i
+.PHONY : Merging_without_pointers.cpp.i
+
+Merging_without_pointers.s: Merging_without_pointers.cpp.s
+
+.PHONY : Merging_without_pointers.s
+
+# target to generate assembly for a file
+Merging_without_pointers.cpp.s:
+	$(MAKE) -f CMakeFiles\Merging_without_pointers.dir\build.make CMakeFiles/Merging_without_pointers.dir/Merging_without_pointers.cpp.s
+.PHONY : Merging_without_pointers.cpp.s
+
 Priniting_Table_1_to_15.obj: Priniting_Table_1_to_15.cpp.obj
 
 .PHONY : Priniting_Table_1_to_15.obj
@@ -403,6 +443,7 @@ help:
 	@echo ... Working_of_an_array
 	@echo ... Array_Merge
 	@echo ... Bubble_Sort
+	@echo ... Merging_without_pointers
 	@echo ... rebuild_cache
 	@echo ... Array_Merge.obj
 	@echo ... Array_Merge.i
@@ -416,6 +457,9 @@ help:
 	@echo ... Finding_Prime_In_Array.obj
 	@echo ... Finding_Prime_In_Array.i
 	@echo ... Finding_Prime_In_Array.s
+	@echo ... Merging_without_pointers.obj
+	@echo ... Merging_without_pointers.i
+	@echo ... Merging_without_pointers.s
 	@echo ... Priniting_Table_1_to_15.obj
 	@echo ... Priniting_Table_1_to_15.i
 	@echo ... Priniting_Table_1_to_15.s
