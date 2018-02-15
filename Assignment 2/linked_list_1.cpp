@@ -15,6 +15,8 @@ class Objects
     Node* tail = nullptr;
 public:
     void create_node(int);
+    void delete_node(int);
+    Node* gethead();
     Node* traverse(int);
     void display();
 };
@@ -34,7 +36,7 @@ void Objects::create_node(int element)
     }
     else
     {
-        cout<<"\n\nWhere do you want to add in the linked list?\n1. At Beginning\n2. At Last\n3. In Between The List\n";
+        cout<<"\n\nWhere do you want to add in the linked list?\n1. At Beginning\n2. At Last\n3. In Between The List\n\n";
         cin>>ans;
         if(ans == 1)
         {
@@ -52,7 +54,7 @@ void Objects::create_node(int element)
             }
             else
             {
-                cout<<"\nEnter the position:\n";
+                cout<<"\n\nEnter the position:\n\n";
                 cin>>position;
                 temp = traverse(position);
                 new_node->next = temp->next;
@@ -67,6 +69,7 @@ void Objects::display()
 {
     Node* temp;
     temp = head;
+    cout<<"\n\nThe newly formed linked list is :\n\n";
     while(temp != nullptr)
     {
         cout<<temp->data<<" -> ";
@@ -78,7 +81,7 @@ Node* Objects::traverse(int position)
 {
     Node* temp;
     auto counter = 1;
-    temp = head;
+    temp = gethead();
 
     while(counter < (position-1))
     {
@@ -88,25 +91,76 @@ Node* Objects::traverse(int position)
     return temp;
 }
 
+void Objects::delete_node(int position)
+{
+    Node* temp; Node* to_be_deleted;
+
+    temp = gethead();
+
+    if(temp == nullptr)
+    {
+        cout<<"\n\nNothing to delete here!!!!!\n\n";
+        exit(0);
+    }
+
+    if(position == 1)
+    {
+        temp = traverse(position);
+        head = temp->next;
+        delete temp;
+    }
+    else
+    {
+        temp = traverse(position);
+        to_be_deleted = traverse((position+1));
+
+        temp->next = to_be_deleted->next;
+        delete to_be_deleted;
+    }
+
+    display();
+}
+
+Node* Objects::gethead()
+{
+    return head;
+}
+
 
 int main()
 {
     Objects ob1;
     int digit, answer;
 
-    cout<<"\nEnter the first number to add :\n";
+    cout<<"\n\nEnter the first number to add :\n\n";
     cin>>digit;
     ob1.create_node(digit);
 
     do
     {
-        cout<<"\nDo you want to add more?\n1. Yes\n2. No\n";
+        cout<<"\n\nDo you want to add more?\n1. Yes\n2. No\n\n";
         cin>>answer;
         if(answer == 2)
-            exit(0);
-        cout<<"\nEnter the number to add :\n";
+            break;
+        cout<<"\n\nEnter the number to add :\n\n";
         cin>>digit;
         ob1.create_node(digit);
+
+    }while(answer == 1);
+
+    do
+    {
+        cout<<"\n\nDo you want to delete any node ?\n\n1. Yes\n2. No :\n\n";
+        cin>>answer;
+        if(answer == 2)
+        {
+            break;
+        }
+
+        cout<<"\n\nEnter the position you want to delete:\n\n";
+        cin>>digit;
+        ob1.delete_node(digit);
+
     }while(answer == 1);
     return 0;
 }
