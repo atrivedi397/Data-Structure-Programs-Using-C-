@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.9)
 project(Data_Structure_Programs_Using_C_)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 
 add_executable(Table_Of_A_Number Table_Of_A_Number.cpp)
@@ -12,3 +12,8 @@ add_executable(Binary_search_array Binary_search_array.cpp)
 add_executable(Array_Merge Array_Merge.cpp)
 add_executable(Bubble_Sort Bubble_Sort.cpp)
 add_executable(Merging_without_pointers Merging_without_pointers.cpp)
+add_executable(Adding_polynomials Adding_polynomials.cpp)
+add_executable(Selection_sort Selection_sort.cpp)
+add_executable(Quick_sort_using_Cormen Quick_sort_using_Cormen.cpp)
+add_executable(Quick_sort_final Quick_sort_final.cpp)
+add_executable(linked_list_1 "Assignment 2/linked_list_1.cpp")
