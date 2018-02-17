@@ -77,12 +77,13 @@ void objects::create_node(int element)
 
                     //traversing to get the address of node where to add
                     temp = traverse_forward(position);
+                    node* temp2 =  traverse_forward((position+1));
 
                     //adding in between
                     new_node->prev = temp;
                     new_node->next = temp->next;
                     temp->next = new_node;
-                    temp->next->prev = new_node;
+                    temp2->prev = new_node;
                     display();
                 }
                 else
@@ -94,12 +95,13 @@ void objects::create_node(int element)
 
                         //traversing to get the node where to add
                         temp = traverse_backward(position);
+                        node* temp2 = traverse_backward((position+1));
 
                         //adding in between
                         new_node->prev = temp->prev;
                         new_node->next = temp;
                         temp->prev = new_node;
-                        temp->prev->next = new_node;
+                        temp2->next = new_node;
                         display();
                     }
                 }
@@ -193,7 +195,9 @@ void objects::delete_node()
                 if(position == 1)
                 {
                     head = temp->next;
+                    head->prev = nullptr;
                     delete temp;
+                    display();
                 }
                 else
                 {
@@ -202,6 +206,7 @@ void objects::delete_node()
                     temp->next = to_be_deleted->next;
                     to_be_deleted->next->prev = temp;
                     delete to_be_deleted;
+                    display();
                 }
             }
         }
@@ -222,7 +227,9 @@ void objects::delete_node()
                 if(position == 1)
                 {
                     tail = temp->prev;
+                    tail->next = nullptr;
                     delete temp;
+                    display();
                 }
                 else
                 {
@@ -231,6 +238,7 @@ void objects::delete_node()
                     temp->prev = to_be_deleted->prev;
                     to_be_deleted->prev->next = temp;
                     delete to_be_deleted;
+                    display();
                 }
             }
         }
@@ -291,8 +299,6 @@ int main()
                     {
                         break;
                     }
-                    cout<<"\n\nEnter the position you want to delete:\n\n";
-                    cin>>digit;
                     ob1.delete_node();
                 }while(answer == 1);
             }
