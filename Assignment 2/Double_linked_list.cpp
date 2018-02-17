@@ -12,27 +12,40 @@ struct node
 class objects
 {
 private:
+
+    //members to denote head and tail
     node* head = nullptr;
     node* tail = nullptr;
 public:
+
+    //functions to be implemented
     void create_node(int);
-    node* get(int);
+    node* get(int); //for getting head or tail of linked list
+
+    //traversals
     node* traverse_forward(int);
     node* traverse_backward(int);
+
+    //deletion
     void delete_node();
+
+    //display
     void display();
 };
 
+//definition of creation
 void objects::create_node(int element)
 {
-    node* new_node; node* temp; int ans , position;
+    node* new_node; node* temp1; node* temp2; int ans , position;
 
     new_node = new node;
 
+    //initially storing element and pointing to null
     new_node->data = element;
     new_node->prev = nullptr;
     new_node->next = nullptr;
 
+    //storing at head if no head was there initially
     if(head == nullptr)
     {
         head = new_node;
@@ -76,13 +89,15 @@ void objects::create_node(int element)
                     cin>>position;
 
                     //traversing to get the address of node where to add
-                    temp = traverse_forward(position);
-                    node* temp2 =  traverse_forward((position+1));
+                    temp1 = traverse_forward(position);
+
+                    //another pointer for linking the next node to new node
+                    temp2 =  traverse_forward((position+1));
 
                     //adding in between
-                    new_node->prev = temp;
-                    new_node->next = temp->next;
-                    temp->next = new_node;
+                    new_node->prev = temp1;
+                    new_node->next = temp1->next;
+                    temp1->next = new_node;
                     temp2->prev = new_node;
                     display();
                 }
@@ -94,13 +109,15 @@ void objects::create_node(int element)
                         cin>>position;
 
                         //traversing to get the node where to add
-                        temp = traverse_backward(position);
-                        node* temp2 = traverse_backward((position+1));
+                        temp1 = traverse_backward(position);
+
+                        //second pointer for linking the next node to the new node
+                        temp2 = traverse_backward((position+1));
 
                         //adding in between
-                        new_node->prev = temp->prev;
-                        new_node->next = temp;
-                        temp->prev = new_node;
+                        new_node->prev = temp1->prev;
+                        new_node->next = temp1;
+                        temp1->prev = new_node;
                         temp2->next = new_node;
                         display();
                     }
@@ -113,11 +130,15 @@ void objects::create_node(int element)
     }
 }
 
+
+//getting head or tail
 node *objects::get(int value)
 {
     return value == 1 ? head : tail;
 }
 
+
+//traversal forward(left to right)
 node *objects::traverse_forward(int position)
 {
     node* temp ;
@@ -134,6 +155,7 @@ node *objects::traverse_forward(int position)
     return temp;
 }
 
+//traversal backward(right to left)
 node *objects::traverse_backward(int position)
 {
     node* temp;
@@ -154,6 +176,7 @@ void objects::display()
 {
     node* temp;
 
+    //displaying from left to right
     temp = get(1);
     cout<<"\n\nThe newly formed list in forward way. \n";
     while(temp != nullptr)
@@ -162,6 +185,7 @@ void objects::display()
         temp = temp->next;
     }
 
+    //displaying from right to left
     temp = get(2);
     cout<<"\n\nThe newly formed list in backward way.\n";
     while(temp != nullptr)
@@ -182,6 +206,7 @@ void objects::delete_node()
     {
         case 1 :
         {
+            //checking if head is null or not
             temp = get(1);
             if(temp == nullptr)
             {
@@ -214,6 +239,7 @@ void objects::delete_node()
 
         case 2 :
         {
+            //checking if tail is null or not
             temp = get(2);
             if(temp == nullptr)
             {
@@ -312,8 +338,10 @@ int main()
     }while(answer == 1 || answer == 2 || answer == 3);
 
     return 0;
-
 }
+
+
+
 
 //
 // Created by Abhishek Trivedi on 17-Feb-18.
