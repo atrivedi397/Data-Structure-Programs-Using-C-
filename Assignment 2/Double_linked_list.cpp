@@ -125,7 +125,11 @@ void objects::create_node(int element)
             }
             break;
 
-            default :  return;
+            default :
+            {
+                cout<<"\nProvide a valid answer.\n";
+                return;
+            }
         }
     }
 }
@@ -217,15 +221,29 @@ void objects::delete_node()
             {
                 cout<<"\nEnter position:\n";
                 cin>>position;
+
+                //if first node is to be deleted.
                 if(position == 1)
                 {
-                    head = temp->next;
-                    head->prev = nullptr;
-                    delete temp;
-                    display();
+                    //checking if it is the last node left.
+                   if(head->next == nullptr)
+                   {
+                       delete head;
+                       cout<<"\nEverything is deleted.\n";
+                       exit(0);
+                   }
+                   else
+                   {
+                       //otherwise stepping head by 1
+                       head = temp->next;
+                       head->prev = nullptr;
+                       delete temp;
+                       display();
+                   }
                 }
                 else
                 {
+                    //deleting any node in the list from left
                     temp = traverse_forward(position);
                     to_be_deleted = traverse_forward((position+1));
                     temp->next = to_be_deleted->next;
@@ -252,13 +270,25 @@ void objects::delete_node()
                 cin>>position;
                 if(position == 1)
                 {
-                    tail = temp->prev;
-                    tail->next = nullptr;
-                    delete temp;
-                    display();
+                    //if it is the last node left
+                   if(tail->prev == nullptr)
+                   {
+                       delete tail;
+                       cout<<"\nEverything is deleted.\n";
+                       exit(0);
+                   }
+                   else
+                   {
+                       //otherwise shrinking tail by one step
+                       tail = temp->prev;
+                       tail->next = nullptr;
+                       delete temp;
+                       display();
+                   }
                 }
                 else
                 {
+                    //deleting any node in between the list from right
                     temp = traverse_backward(position);
                     to_be_deleted = traverse_backward((position+1));
                     temp->prev = to_be_deleted->prev;
