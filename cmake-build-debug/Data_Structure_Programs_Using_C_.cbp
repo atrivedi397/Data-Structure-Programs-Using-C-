@@ -8,413 +8,577 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Priniting_Table_1_to_15">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Priniting_Table_1_to_15.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+			<Target title="Double_linked_list">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Double_linked_list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Priniting_Table_1_to_15"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Double_linked_list"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Priniting_Table_1_to_15/fast">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Priniting_Table_1_to_15.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+			<Target title="Double_linked_list/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Double_linked_list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Priniting_Table_1_to_15/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Double_linked_list/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Binary_search_array">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Binary_search_array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+			<Target title="linked_list_1">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/linked_list_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Binary_search_array"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list_1"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Binary_search_array/fast">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Binary_search_array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+			<Target title="linked_list_1/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/linked_list_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Binary_search_array/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Table_Of_A_Number">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Table_Of_A_Number.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Table_Of_A_Number"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Table_Of_A_Number/fast">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Table_Of_A_Number.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Table_Of_A_Number/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Finding_Prime_In_Array">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Finding_Prime_In_Array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Finding_Prime_In_Array"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Finding_Prime_In_Array/fast">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Finding_Prime_In_Array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Finding_Prime_In_Array/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Working_of_an_array">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Working_of_an_array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Working_of_an_array"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Working_of_an_array/fast">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Working_of_an_array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Working_of_an_array/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Array_Merge">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Array_Merge.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Array_Merge"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Array_Merge/fast">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Array_Merge.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Array_Merge/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Bubble_Sort">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Bubble_Sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bubble_Sort"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Bubble_Sort/fast">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Bubble_Sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bubble_Sort/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Merging_without_pointers">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Merging_without_pointers.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Merging_without_pointers"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Merging_without_pointers/fast">
-				<Option output="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Merging_without_pointers.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Merging_without_pointers/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list_1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Finding_Prime_In_Array">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Finding_Prime_In_Array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Finding_Prime_In_Array"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Finding_Prime_In_Array/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Finding_Prime_In_Array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Finding_Prime_In_Array/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Priniting_Table_1_to_15">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Priniting_Table_1_to_15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Priniting_Table_1_to_15"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Priniting_Table_1_to_15/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Priniting_Table_1_to_15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Priniting_Table_1_to_15/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Merging_without_pointers">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Merging_without_pointers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Merging_without_pointers"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Merging_without_pointers/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Merging_without_pointers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Merging_without_pointers/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Binary_search_array">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Binary_search_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Binary_search_array"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Binary_search_array/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Binary_search_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Binary_search_array/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Working_of_an_array">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Working_of_an_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Working_of_an_array"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Working_of_an_array/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Working_of_an_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Working_of_an_array/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Table_Of_A_Number">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Table_Of_A_Number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Table_Of_A_Number"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Table_Of_A_Number/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Table_Of_A_Number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Table_Of_A_Number/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bubble_Sort">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Bubble_Sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bubble_Sort"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bubble_Sort/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Bubble_Sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bubble_Sort/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Array_Merge">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Array_Merge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Array_Merge"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Array_Merge/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Array_Merge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Array_Merge/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Selection_sort">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Selection_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Selection_sort"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Selection_sort/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Selection_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Selection_sort/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Quick_sort_final">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Quick_sort_final" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Quick_sort_final"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Quick_sort_final/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Quick_sort_final" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Quick_sort_final/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Array_Merge.cpp">
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Array_Merge.cpp">
 			<Option target="Array_Merge"/>
 		</Unit>
-		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Binary_search_array.cpp">
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Assignment 2/Double_linked_list.cpp">
+			<Option target="Double_linked_list"/>
+		</Unit>
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Assignment 2/linked_list_1.cpp">
+			<Option target="linked_list_1"/>
+		</Unit>
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Binary_search_array.cpp">
 			<Option target="Binary_search_array"/>
 		</Unit>
-		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Bubble_Sort.cpp">
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Bubble_Sort.cpp">
 			<Option target="Bubble_Sort"/>
 		</Unit>
-		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Finding_Prime_In_Array.cpp">
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Finding_Prime_In_Array.cpp">
 			<Option target="Finding_Prime_In_Array"/>
 		</Unit>
-		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Merging_without_pointers.cpp">
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Merging_without_pointers.cpp">
 			<Option target="Merging_without_pointers"/>
 		</Unit>
-		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Priniting_Table_1_to_15.cpp">
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Priniting_Table_1_to_15.cpp">
 			<Option target="Priniting_Table_1_to_15"/>
 		</Unit>
-		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Table_Of_A_Number.cpp">
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Quick_sort_final.cpp">
+			<Option target="Quick_sort_final"/>
+		</Unit>
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Selection_sort.cpp">
+			<Option target="Selection_sort"/>
+		</Unit>
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Table_Of_A_Number.cpp">
 			<Option target="Table_Of_A_Number"/>
 		</Unit>
-		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Working_of_an_array.cpp">
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Working_of_an_array.cpp">
 			<Option target="Working_of_an_array"/>
 		</Unit>
-		<Unit filename="E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/CMakeLists.txt">
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

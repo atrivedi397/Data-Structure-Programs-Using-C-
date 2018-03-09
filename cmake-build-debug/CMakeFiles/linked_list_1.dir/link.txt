@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/linked_list_1.dir/Assignment_2/linked_list_1.cpp.o  -o linked_list_1 

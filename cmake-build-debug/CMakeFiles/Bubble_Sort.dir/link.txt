@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Bubble_Sort.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Bubble_Sort.dir/objects.a @CMakeFiles\Bubble_Sort.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Bubble_Sort.dir/objects.a -Wl,--no-whole-archive  -o Bubble_Sort.exe -Wl,--out-implib,libBubble_Sort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Bubble_Sort.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/Bubble_Sort.dir/Bubble_Sort.cpp.o  -o Bubble_Sort 

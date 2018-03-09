@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Priniting_Table_1_to_15.cpp" "E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Priniting_Table_1_to_15.dir/Priniting_Table_1_to_15.cpp.obj"
+  "/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Priniting_Table_1_to_15.cpp" "/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Priniting_Table_1_to_15.dir/Priniting_Table_1_to_15.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

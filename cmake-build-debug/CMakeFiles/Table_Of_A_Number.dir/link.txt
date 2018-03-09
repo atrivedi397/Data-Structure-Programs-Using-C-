@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Table_Of_A_Number.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Table_Of_A_Number.dir/objects.a @CMakeFiles\Table_Of_A_Number.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Table_Of_A_Number.dir/objects.a -Wl,--no-whole-archive  -o Table_Of_A_Number.exe -Wl,--out-implib,libTable_Of_A_Number.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Table_Of_A_Number.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/Table_Of_A_Number.dir/Table_Of_A_Number.cpp.o  -o Table_Of_A_Number 

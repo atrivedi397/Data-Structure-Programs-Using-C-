@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Binary_search_array.dir/Binary_search_array.cpp.obj"
+  "CMakeFiles/Binary_search_array.dir/Binary_search_array.cpp.o"
   "Binary_search_array.pdb"
-  "Binary_search_array.exe"
-  "Binary_search_array.exe.manifest"
-  "libBinary_search_array.dll.a"
+  "Binary_search_array"
 )
 
 # Per-language clean rules from dependency scanning.

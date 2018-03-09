@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/Table_Of_A_Number.cpp" "E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Table_Of_A_Number.dir/Table_Of_A_Number.cpp.obj"
+  "/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Table_Of_A_Number.cpp" "/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Table_Of_A_Number.dir/Table_Of_A_Number.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

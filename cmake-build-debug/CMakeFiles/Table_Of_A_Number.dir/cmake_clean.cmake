@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Table_Of_A_Number.dir/Table_Of_A_Number.cpp.obj"
+  "CMakeFiles/Table_Of_A_Number.dir/Table_Of_A_Number.cpp.o"
   "Table_Of_A_Number.pdb"
-  "Table_Of_A_Number.exe"
-  "Table_Of_A_Number.exe.manifest"
-  "libTable_Of_A_Number.dll.a"
+  "Table_Of_A_Number"
 )
 
 # Per-language clean rules from dependency scanning.

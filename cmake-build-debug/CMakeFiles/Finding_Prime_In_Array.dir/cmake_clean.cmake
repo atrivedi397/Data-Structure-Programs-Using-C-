@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Finding_Prime_In_Array.dir/Finding_Prime_In_Array.cpp.obj"
+  "CMakeFiles/Finding_Prime_In_Array.dir/Finding_Prime_In_Array.cpp.o"
   "Finding_Prime_In_Array.pdb"
-  "Finding_Prime_In_Array.exe"
-  "Finding_Prime_In_Array.exe.manifest"
-  "libFinding_Prime_In_Array.dll.a"
+  "Finding_Prime_In_Array"
 )
 
 # Per-language clean rules from dependency scanning.

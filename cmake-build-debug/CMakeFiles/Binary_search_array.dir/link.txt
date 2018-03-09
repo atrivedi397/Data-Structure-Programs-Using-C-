@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Binary_search_array.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Binary_search_array.dir/objects.a @CMakeFiles\Binary_search_array.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Binary_search_array.dir/objects.a -Wl,--no-whole-archive  -o Binary_search_array.exe -Wl,--out-implib,libBinary_search_array.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Binary_search_array.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/Binary_search_array.dir/Binary_search_array.cpp.o  -o Binary_search_array 

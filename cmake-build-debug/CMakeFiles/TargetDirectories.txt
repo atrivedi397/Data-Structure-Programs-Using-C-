@@ -1,10 +1,14 @@
-E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Priniting_Table_1_to_15.dir
-E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Binary_search_array.dir
-E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Table_Of_A_Number.dir
-E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Finding_Prime_In_Array.dir
-E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Working_of_an_array.dir
-E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Array_Merge.dir
-E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Bubble_Sort.dir
-E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Merging_without_pointers.dir
-E:/Git Cloned Repository/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Double_linked_list.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/linked_list_1.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Finding_Prime_In_Array.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Priniting_Table_1_to_15.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Merging_without_pointers.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Binary_search_array.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Working_of_an_array.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Table_Of_A_Number.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Bubble_Sort.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Array_Merge.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Selection_sort.dir
+/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles/Quick_sort_final.dir

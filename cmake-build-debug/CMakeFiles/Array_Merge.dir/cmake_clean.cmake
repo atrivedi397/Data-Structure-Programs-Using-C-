@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Array_Merge.dir/Array_Merge.cpp.obj"
+  "CMakeFiles/Array_Merge.dir/Array_Merge.cpp.o"
   "Array_Merge.pdb"
-  "Array_Merge.exe"
-  "Array_Merge.exe.manifest"
-  "libArray_Merge.dll.a"
+  "Array_Merge"
 )
 
 # Per-language clean rules from dependency scanning.

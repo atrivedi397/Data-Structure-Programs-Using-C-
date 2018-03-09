@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Priniting_Table_1_to_15.dir/Priniting_Table_1_to_15.cpp.obj"
+  "CMakeFiles/Priniting_Table_1_to_15.dir/Priniting_Table_1_to_15.cpp.o"
   "Priniting_Table_1_to_15.pdb"
-  "Priniting_Table_1_to_15.exe"
-  "Priniting_Table_1_to_15.exe.manifest"
-  "libPriniting_Table_1_to_15.dll.a"
+  "Priniting_Table_1_to_15"
 )
 
 # Per-language clean rules from dependency scanning.
