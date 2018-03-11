@@ -21,6 +21,7 @@ public:
     void delete_node(int);
     Node* get_head();
     Node* traverse(int);
+    int search_element(int);
     void display();
 };
 
@@ -144,6 +145,37 @@ Node* Objects::get_head()
     return head;
 }
 
+//definition for linear search on the list
+int Objects::search_element(int data)
+{
+    Node* temp;  int counter = 0;
+    temp = get_head();
+
+    if(temp == nullptr)
+    {
+        cout<<"\nThere is no data in the linked list. \n";
+        return -1;
+    }
+    else
+    {
+        while(temp->next != nullptr || temp->next == nullptr)
+        {
+            if(temp->data == data)
+            {
+                counter++;
+                return counter;
+            }
+            else
+            {
+                counter++;
+                temp = temp->next;
+            }
+        }
+    }
+
+    cout<<"\nElement is not present in the linked list.\n";
+    return -1;
+}
 
 //main()
 int main()
@@ -154,7 +186,7 @@ int main()
 
     do
     {
-        cout<<"\n\nWhat do you want to do?\n1. Create Linked List\n2. Delete Nodes\n3. Exit\n\n";
+        cout<<"\n\nWhat do you want to do?\n1. Create Linked List\n2. Delete Nodes\n3. Search Elements(Linear Search)\n4. Exit\n\n";
         cin>>answer;
 
         switch (answer)
@@ -201,14 +233,35 @@ int main()
 
                 break;
 
-            case 3 : exit(0);
+            case 3 :
+            {
+                do
+                {
+                    cout<<"\n\nEnter the element to search :\n";
+                    cin>>digit;
+
+                    answer = ob1.search_element(digit);
+
+                    if(answer != -1)
+                    {
+                        cout<<"\nYour element is at position "<<answer<<endl;
+                    }
+                    cout<<"\nDo you want to search again ? \n1. Yes\n2. No\n";
+                    cin>>answer;
+                    if(answer == 2)
+                        break;
+                }while(answer == 1);
+            }
+                break;
+
+            case 4 : exit(0);
 
             default : cout<<"\n\nEnter a valid choice\n";
                 break;
         }
 
 
-    }while(answer == 1 || answer == 2 || answer == 3 );
+    }while(answer == 1 || answer == 2 || answer == 3 || answer == 4);
     return 0;
 }
 
@@ -217,3 +270,8 @@ int main()
 //
 // Created by Abhishek Trivedi on 14-Feb-18.
 //
+
+//
+// Created by atrivedi on 3/11/18.
+//
+

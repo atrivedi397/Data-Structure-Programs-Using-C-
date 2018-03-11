@@ -17,6 +17,48 @@
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Searching_in_linked_list_singly">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Searching_in_linked_list_singly" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Searching_in_linked_list_singly"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Searching_in_linked_list_singly/fast">
+				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Searching_in_linked_list_singly" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 Searching_in_linked_list_singly/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/atrivedi/Git\ Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Double_linked_list">
 				<Option output="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/Double_linked_list" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"/>
@@ -547,6 +589,9 @@
 		</Unit>
 		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Assignment 2/Double_linked_list.cpp">
 			<Option target="Double_linked_list"/>
+		</Unit>
+		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Assignment 2/Searching_in_linked_list_singly.cpp">
+			<Option target="Searching_in_linked_list_singly"/>
 		</Unit>
 		<Unit filename="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/Assignment 2/linked_list_1.cpp">
 			<Option target="linked_list_1"/>

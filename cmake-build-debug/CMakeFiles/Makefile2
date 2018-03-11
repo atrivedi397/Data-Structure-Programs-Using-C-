@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = "/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-
 CMAKE_BINARY_DIR = "/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug"
 
 #=============================================================================
+# Target rules for target CMakeFiles/Searching_in_linked_list_singly.dir
+
+# All Build rule for target.
+CMakeFiles/Searching_in_linked_list_singly.dir/all:
+	$(MAKE) -f CMakeFiles/Searching_in_linked_list_singly.dir/build.make CMakeFiles/Searching_in_linked_list_singly.dir/depend
+	$(MAKE) -f CMakeFiles/Searching_in_linked_list_singly.dir/build.make CMakeFiles/Searching_in_linked_list_singly.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles" --progress-num=17,18 "Built target Searching_in_linked_list_singly"
+.PHONY : CMakeFiles/Searching_in_linked_list_singly.dir/all
+
+# Include target in all.
+all: CMakeFiles/Searching_in_linked_list_singly.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Searching_in_linked_list_singly.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Searching_in_linked_list_singly.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Searching_in_linked_list_singly.dir/rule
+
+# Convenience name for target.
+Searching_in_linked_list_singly: CMakeFiles/Searching_in_linked_list_singly.dir/rule
+
+.PHONY : Searching_in_linked_list_singly
+
+# clean rule for target.
+CMakeFiles/Searching_in_linked_list_singly.dir/clean:
+	$(MAKE) -f CMakeFiles/Searching_in_linked_list_singly.dir/build.make CMakeFiles/Searching_in_linked_list_singly.dir/clean
+.PHONY : CMakeFiles/Searching_in_linked_list_singly.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Searching_in_linked_list_singly.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Double_linked_list.dir
 
 # All Build rule for target.
@@ -103,7 +140,7 @@ clean: CMakeFiles/Double_linked_list.dir/clean
 CMakeFiles/linked_list_1.dir/all:
 	$(MAKE) -f CMakeFiles/linked_list_1.dir/build.make CMakeFiles/linked_list_1.dir/depend
 	$(MAKE) -f CMakeFiles/linked_list_1.dir/build.make CMakeFiles/linked_list_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles" --progress-num=23,24 "Built target linked_list_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles" --progress-num=25,26 "Built target linked_list_1"
 .PHONY : CMakeFiles/linked_list_1.dir/all
 
 # Include target in all.
@@ -288,7 +325,7 @@ clean: CMakeFiles/Binary_search_array.dir/clean
 CMakeFiles/Working_of_an_array.dir/all:
 	$(MAKE) -f CMakeFiles/Working_of_an_array.dir/build.make CMakeFiles/Working_of_an_array.dir/depend
 	$(MAKE) -f CMakeFiles/Working_of_an_array.dir/build.make CMakeFiles/Working_of_an_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles" --progress-num=21,22 "Built target Working_of_an_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles" --progress-num=23,24 "Built target Working_of_an_array"
 .PHONY : CMakeFiles/Working_of_an_array.dir/all
 
 # Include target in all.
@@ -325,7 +362,7 @@ clean: CMakeFiles/Working_of_an_array.dir/clean
 CMakeFiles/Table_Of_A_Number.dir/all:
 	$(MAKE) -f CMakeFiles/Table_Of_A_Number.dir/build.make CMakeFiles/Table_Of_A_Number.dir/depend
 	$(MAKE) -f CMakeFiles/Table_Of_A_Number.dir/build.make CMakeFiles/Table_Of_A_Number.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles" --progress-num=19,20 "Built target Table_Of_A_Number"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles" --progress-num=21,22 "Built target Table_Of_A_Number"
 .PHONY : CMakeFiles/Table_Of_A_Number.dir/all
 
 # Include target in all.
@@ -436,7 +473,7 @@ clean: CMakeFiles/Array_Merge.dir/clean
 CMakeFiles/Selection_sort.dir/all:
 	$(MAKE) -f CMakeFiles/Selection_sort.dir/build.make CMakeFiles/Selection_sort.dir/depend
 	$(MAKE) -f CMakeFiles/Selection_sort.dir/build.make CMakeFiles/Selection_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles" --progress-num=17,18 "Built target Selection_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/atrivedi/Git Projects/Data-Structure-Programs-Using-C-/cmake-build-debug/CMakeFiles" --progress-num=19,20 "Built target Selection_sort"
 .PHONY : CMakeFiles/Selection_sort.dir/all
 
 # Include target in all.

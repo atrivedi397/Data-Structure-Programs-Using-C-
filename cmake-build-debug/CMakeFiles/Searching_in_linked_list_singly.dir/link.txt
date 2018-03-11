@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Searching_in_linked_list_singly.dir/Assignment_2/Searching_in_linked_list_singly.cpp.o  -o Searching_in_linked_list_singly 

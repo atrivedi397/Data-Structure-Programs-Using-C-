@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Searching_in_linked_list_singly
+
+# Build rule for target.
+Searching_in_linked_list_singly: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Searching_in_linked_list_singly
+.PHONY : Searching_in_linked_list_singly
+
+# fast build rule for target.
+Searching_in_linked_list_singly/fast:
+	$(MAKE) -f CMakeFiles/Searching_in_linked_list_singly.dir/build.make CMakeFiles/Searching_in_linked_list_singly.dir/build
+.PHONY : Searching_in_linked_list_singly/fast
+
+#=============================================================================
 # Target rules for targets named Double_linked_list
 
 # Build rule for target.
@@ -319,6 +332,33 @@ Assignment_2/Double_linked_list.s: Assignment_2/Double_linked_list.cpp.s
 Assignment_2/Double_linked_list.cpp.s:
 	$(MAKE) -f CMakeFiles/Double_linked_list.dir/build.make CMakeFiles/Double_linked_list.dir/Assignment_2/Double_linked_list.cpp.s
 .PHONY : Assignment_2/Double_linked_list.cpp.s
+
+Assignment_2/Searching_in_linked_list_singly.o: Assignment_2/Searching_in_linked_list_singly.cpp.o
+
+.PHONY : Assignment_2/Searching_in_linked_list_singly.o
+
+# target to build an object file
+Assignment_2/Searching_in_linked_list_singly.cpp.o:
+	$(MAKE) -f CMakeFiles/Searching_in_linked_list_singly.dir/build.make CMakeFiles/Searching_in_linked_list_singly.dir/Assignment_2/Searching_in_linked_list_singly.cpp.o
+.PHONY : Assignment_2/Searching_in_linked_list_singly.cpp.o
+
+Assignment_2/Searching_in_linked_list_singly.i: Assignment_2/Searching_in_linked_list_singly.cpp.i
+
+.PHONY : Assignment_2/Searching_in_linked_list_singly.i
+
+# target to preprocess a source file
+Assignment_2/Searching_in_linked_list_singly.cpp.i:
+	$(MAKE) -f CMakeFiles/Searching_in_linked_list_singly.dir/build.make CMakeFiles/Searching_in_linked_list_singly.dir/Assignment_2/Searching_in_linked_list_singly.cpp.i
+.PHONY : Assignment_2/Searching_in_linked_list_singly.cpp.i
+
+Assignment_2/Searching_in_linked_list_singly.s: Assignment_2/Searching_in_linked_list_singly.cpp.s
+
+.PHONY : Assignment_2/Searching_in_linked_list_singly.s
+
+# target to generate assembly for a file
+Assignment_2/Searching_in_linked_list_singly.cpp.s:
+	$(MAKE) -f CMakeFiles/Searching_in_linked_list_singly.dir/build.make CMakeFiles/Searching_in_linked_list_singly.dir/Assignment_2/Searching_in_linked_list_singly.cpp.s
+.PHONY : Assignment_2/Searching_in_linked_list_singly.cpp.s
 
 Assignment_2/linked_list_1.o: Assignment_2/linked_list_1.cpp.o
 
@@ -596,6 +636,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... Searching_in_linked_list_singly"
 	@echo "... Double_linked_list"
 	@echo "... linked_list_1"
 	@echo "... rebuild_cache"
@@ -616,6 +657,9 @@ help:
 	@echo "... Assignment_2/Double_linked_list.o"
 	@echo "... Assignment_2/Double_linked_list.i"
 	@echo "... Assignment_2/Double_linked_list.s"
+	@echo "... Assignment_2/Searching_in_linked_list_singly.o"
+	@echo "... Assignment_2/Searching_in_linked_list_singly.i"
+	@echo "... Assignment_2/Searching_in_linked_list_singly.s"
 	@echo "... Assignment_2/linked_list_1.o"
 	@echo "... Assignment_2/linked_list_1.i"
 	@echo "... Assignment_2/linked_list_1.s"

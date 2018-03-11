@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Searching_in_linked_list_singly.dir/DependInfo.cmake"
   "CMakeFiles/Double_linked_list.dir/DependInfo.cmake"
   "CMakeFiles/linked_list_1.dir/DependInfo.cmake"
   "CMakeFiles/Finding_Prime_In_Array.dir/DependInfo.cmake"
