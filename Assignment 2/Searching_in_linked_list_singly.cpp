@@ -183,6 +183,12 @@ int Objects::search_greatest()
     Node* temp = get_head();
     int max = 0;
 
+    if(temp == nullptr)
+    {
+        cout<<"\nThere is no data in the linked list . First create nodes and then try again.\n";
+        return -1;
+    }
+
     while(temp->next != nullptr)
     {
         max = temp->data;
@@ -293,7 +299,13 @@ int main()
             case 4 :
             {
                 int max = ob1.search_greatest();
-                cout<<"\nThe greatest element in the linked list is "<<max<<endl;
+
+                if(max == -1)
+                {
+                    break;
+                }
+                else
+                    cout<<"\nThe greatest element in the linked list is "<<max<<endl;
             }
                 break;
 
