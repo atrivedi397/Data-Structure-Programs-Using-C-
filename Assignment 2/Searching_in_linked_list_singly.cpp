@@ -21,6 +21,7 @@ public:
     void delete_node(int);
     Node* get_head();
     Node* traverse(int);
+    int search_greatest();
     int search_element(int);
     void display();
 };
@@ -158,8 +159,9 @@ int Objects::search_element(int data)
     }
     else
     {
-        while(temp->next != nullptr || temp->next == nullptr)
+        while(temp->next != tail->next)
         {
+
             if(temp->data == data)
             {
                 counter++;
@@ -172,21 +174,41 @@ int Objects::search_element(int data)
             }
         }
     }
+}
 
-    cout<<"\nElement is not present in the linked list.\n";
-    return -1;
+//searches the greatest element in the linked list
+int Objects::search_greatest()
+{
+
+    Node* temp = get_head();
+    int max = 0;
+
+    while(temp->next != nullptr)
+    {
+        max = temp->data;
+        if(max < temp->next->data)
+        {
+            max = temp->next->data;
+            temp = temp->next;
+        }
+        else
+        {
+            temp = temp->next;
+        }
+    }
+    return max;
 }
 
 //main()
 int main()
 {
     Objects ob1;
-    int digit, answer;
+    int digit, answer = 0;
     cout<<"\nThis is a program for implementing the operations of linked lists.\n";
 
     do
     {
-        cout<<"\n\nWhat do you want to do?\n1. Create Linked List\n2. Delete Nodes\n3. Search Elements(Linear Search)\n4. Exit\n\n";
+        cout<<"\n\nWhat do you want to do?\n1. Create Linked List\n2. Delete Nodes\n3. Search Elements(Linear Search)\n4. Find Greatest\n5. Exit\n\n";
         cin>>answer;
 
         switch (answer)
@@ -220,13 +242,12 @@ int main()
                 {
                     cout<<"\n\nDo you want to delete any node ?\n\n1. Yes\n2. No :\n\n";
                     cin>>answer;
-                    if(answer == 2)
+                    if(answer == 1)
                     {
-                        break;
+                        cout<<"\n\nEnter the position you want to delete:\n\n";
+                        cin>>digit;
+                        ob1.delete_node(digit);
                     }
-                    cout<<"\n\nEnter the position you want to delete:\n\n";
-                    cin>>digit;
-                    ob1.delete_node(digit);
 
                 }while(answer == 1);
             }
@@ -242,34 +263,48 @@ int main()
 
                     answer = ob1.search_element(digit);
 
-                    if(answer != -1)
+                    if(answer == 0)
                     {
-                        cout<<"\nYour element is at position "<<answer<<endl;
+                        cout<<"\nThe element is not present in the linked list.\n";
+                    }
+                    else
+                    {
+                        if(answer != -1)
+                        {
+                            cout<<"\nYour element is at position "<<answer<<endl;
+                        }
+                        else
+                        {
+                            if (answer == -1)
+                                break;    //as if head = null, no need to search again hence break
+                        }
                     }
                     cout<<"\nDo you want to search again ? \n1. Yes\n2. No\n";
+
                     cin>>answer;
+
                     if(answer == 2)
                         break;
+
                 }while(answer == 1);
             }
                 break;
 
-            case 4 : exit(0);
+            case 4 :
+            {
+                int max = ob1.search_greatest();
+                cout<<"\nThe greatest element in the linked list is "<<max<<endl;
+            }
+                break;
+
+            case 5 : exit(0);
 
             default : cout<<"\n\nEnter a valid choice\n";
-                break;
         }
 
-
-    }while(answer == 1 || answer == 2 || answer == 3 || answer == 4);
+    }while(answer);
     return 0;
 }
-
-
-
-//
-// Created by Abhishek Trivedi on 14-Feb-18.
-//
 
 //
 // Created by atrivedi on 3/11/18.
