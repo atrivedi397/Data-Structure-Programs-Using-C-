@@ -5,15 +5,18 @@ using namespace std;
 class binary_array
 {
 public:
+
+    int* array , size;
     //inputting unsorted array
     void input();
     //creating a (insertion) sorted array
     void sorted();
     //searching in binary way
     void binary_search();
+    int binary_search_recursive(int arr[] , int , int , int);
 private:
     //data members
-    int* array , item , size , beg , last , mid;
+    int item , beg , last , mid;
 };
 
 //definition of input()
@@ -104,34 +107,77 @@ void binary_array::sorted()           //ascending order
 
 }
 
+//binary search recursive definition
+int binary_array::binary_search_recursive(int arr[], int beg, int size, int element)
+{
+
+    int mid;
+    mid = (beg + size)/2;
+    if(element == arr[mid])
+    {
+        return (mid+1);
+    }
+    else if(element > arr[mid])
+    {
+        return binary_search_recursive( arr , mid , size, element);
+    }
+    else if(element < arr[mid])
+    {
+        return binary_search_recursive(arr, beg , mid , element);
+    }
+    else
+        return -1;
+}
+
 // start of main()
 int main()
 {
     cout<<endl<<endl<<"This is a program to implement the binary search algorithm in an array.\n\n";
-    binary_array ob;
-    ob.input();
-    ob.sorted();
-    ob.binary_search();
-    int n;
-    bool flag;
-    do
+    binary_array* ob;
+    ob->input();
+    ob->sorted();
+    bool value = true;
+
+    int ans, position;
+    while(value)
     {
-        cout<<"\nDo you want to search (Binary) more ? \n\n1. Yes \n\n2. No\n\n";
-        cin>>n;
-        if(n == 1)
+        cout<<"\n\nDo you want to search in a binary way?\n1. Yes\n2. No\n";
+        cin>>ans;
+
+        if(ans == 1)
         {
-            ob.binary_search();
-            flag = true;
+            cout<<"\n1. Iterative\n2. Recursive\n";
+            cin>>ans;
+            {
+                if(ans == 1)
+                    ob->binary_search();
+                else if(ans == 2)
+                {
+                    cout<<"\nWhich element do you want to search ?\n";
+                    cin>>ans;
+
+                    position = ob->binary_search_recursive(ob->array, 0, ob->size, ans);
+
+                    if(position == -1)
+                        cout<<"\nNo such element in the array.\n";
+                    else
+                        cout<<"\nYour element is at position "<<position<<".\n";
+                }
+            }
         }
         else
-        {
-            flag  = false;
-            //exit(0);
-        }
-    }while(flag);
+            exit(0);
+
+        cout<<"\n\nWant to search again ?\n1. Yes\n2. No\n";
+        cin>>ans;
+        if(ans == 1)
+            continue;
+        else
+            value = false;
+    }
+
     return 0;
 }
 //
 // Created by Abhishek Trivedi on 25-Jan-18.
-//
 
