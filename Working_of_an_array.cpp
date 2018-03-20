@@ -66,7 +66,7 @@ void array::del()
    {
        cout<<"\nNothing to delete. First insert some elements.\n";
    }
-    else
+   else
    {
        if(pos <= no_of_elements)
        {

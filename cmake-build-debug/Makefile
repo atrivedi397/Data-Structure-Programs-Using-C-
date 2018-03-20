@@ -254,6 +254,19 @@ Array_Merge/fast:
 .PHONY : Array_Merge/fast
 
 #=============================================================================
+# Target rules for targets named Sorting_linked_list
+
+# Build rule for target.
+Sorting_linked_list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Sorting_linked_list
+.PHONY : Sorting_linked_list
+
+# fast build rule for target.
+Sorting_linked_list/fast:
+	$(MAKE) -f CMakeFiles/Sorting_linked_list.dir/build.make CMakeFiles/Sorting_linked_list.dir/build
+.PHONY : Sorting_linked_list/fast
+
+#=============================================================================
 # Target rules for targets named Selection_sort
 
 # Build rule for target.
@@ -359,6 +372,33 @@ Assignment_2/Searching_in_linked_list_singly.s: Assignment_2/Searching_in_linked
 Assignment_2/Searching_in_linked_list_singly.cpp.s:
 	$(MAKE) -f CMakeFiles/Searching_in_linked_list_singly.dir/build.make CMakeFiles/Searching_in_linked_list_singly.dir/Assignment_2/Searching_in_linked_list_singly.cpp.s
 .PHONY : Assignment_2/Searching_in_linked_list_singly.cpp.s
+
+Assignment_2/Sorting_linked_list.o: Assignment_2/Sorting_linked_list.cpp.o
+
+.PHONY : Assignment_2/Sorting_linked_list.o
+
+# target to build an object file
+Assignment_2/Sorting_linked_list.cpp.o:
+	$(MAKE) -f CMakeFiles/Sorting_linked_list.dir/build.make CMakeFiles/Sorting_linked_list.dir/Assignment_2/Sorting_linked_list.cpp.o
+.PHONY : Assignment_2/Sorting_linked_list.cpp.o
+
+Assignment_2/Sorting_linked_list.i: Assignment_2/Sorting_linked_list.cpp.i
+
+.PHONY : Assignment_2/Sorting_linked_list.i
+
+# target to preprocess a source file
+Assignment_2/Sorting_linked_list.cpp.i:
+	$(MAKE) -f CMakeFiles/Sorting_linked_list.dir/build.make CMakeFiles/Sorting_linked_list.dir/Assignment_2/Sorting_linked_list.cpp.i
+.PHONY : Assignment_2/Sorting_linked_list.cpp.i
+
+Assignment_2/Sorting_linked_list.s: Assignment_2/Sorting_linked_list.cpp.s
+
+.PHONY : Assignment_2/Sorting_linked_list.s
+
+# target to generate assembly for a file
+Assignment_2/Sorting_linked_list.cpp.s:
+	$(MAKE) -f CMakeFiles/Sorting_linked_list.dir/build.make CMakeFiles/Sorting_linked_list.dir/Assignment_2/Sorting_linked_list.cpp.s
+.PHONY : Assignment_2/Sorting_linked_list.cpp.s
 
 Assignment_2/linked_list_1.o: Assignment_2/linked_list_1.cpp.o
 
@@ -649,6 +689,7 @@ help:
 	@echo "... Table_Of_A_Number"
 	@echo "... Bubble_Sort"
 	@echo "... Array_Merge"
+	@echo "... Sorting_linked_list"
 	@echo "... Selection_sort"
 	@echo "... Quick_sort_final"
 	@echo "... Array_Merge.o"
@@ -660,6 +701,9 @@ help:
 	@echo "... Assignment_2/Searching_in_linked_list_singly.o"
 	@echo "... Assignment_2/Searching_in_linked_list_singly.i"
 	@echo "... Assignment_2/Searching_in_linked_list_singly.s"
+	@echo "... Assignment_2/Sorting_linked_list.o"
+	@echo "... Assignment_2/Sorting_linked_list.i"
+	@echo "... Assignment_2/Sorting_linked_list.s"
 	@echo "... Assignment_2/linked_list_1.o"
 	@echo "... Assignment_2/linked_list_1.i"
 	@echo "... Assignment_2/linked_list_1.s"

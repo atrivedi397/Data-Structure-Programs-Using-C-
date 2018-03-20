@@ -56,6 +56,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Table_Of_A_Number.dir/DependInfo.cmake"
   "CMakeFiles/Bubble_Sort.dir/DependInfo.cmake"
   "CMakeFiles/Array_Merge.dir/DependInfo.cmake"
+  "CMakeFiles/Sorting_linked_list.dir/DependInfo.cmake"
   "CMakeFiles/Selection_sort.dir/DependInfo.cmake"
   "CMakeFiles/Quick_sort_final.dir/DependInfo.cmake"
   )
